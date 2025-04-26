@@ -1,0 +1,6 @@
+[submodule "MegaAgent_Gobang_example"]
+	path = MegaAgent_Gobang_example
+	url = https://github.com/wty500/MegaAgent_Gobang_example.git
+[submodule "files"]
+	path = files
+	url = https://github.com/wty500/MegaAgent_Gobang_example.git
