@@ -6,7 +6,7 @@ MegaAgent is a framework designed to manage autonomous cooperation in  large-sca
 
 ## Framework
 
-![fig](examples\fig.png)
+![fig](examples/fig.png)
 
 ## Code Overview
 
@@ -18,9 +18,9 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 
 ## Experimental Results
 
-![fig2](examples\fig2.png)
+![fig2](examples/fig2.png)
 
-<img src="examples\fig3.png" alt="fig3" style="zoom:50%;" />
+<img src="examples/fig3.png" alt="fig3" style="zoom:50%;" />
 
 | Model         | MBPP  | HumanEval | MATH  | GSM-8k |
 | ------------- | ----- | --------- | ----- | ------ |
