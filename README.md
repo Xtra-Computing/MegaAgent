@@ -20,7 +20,7 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 
 ![fig2](examples/fig2.png)
 
-<img src="examples/fig3.png" alt="fig3" style="zoom:30%;" />
+<img src="examples/fig3.png" alt="fig3" width="420px" />
 
 | Model         | MBPP  | HumanEval | MATH  | GSM-8k |
 | ------------- | ----- | --------- | ----- | ------ |
