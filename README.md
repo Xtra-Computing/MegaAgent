@@ -1,19 +1,39 @@
-# MegaAgent
-MegaAgent is a framework designed to manage autonomous cooperation in large-scale LLM-powered multi-agent systems, enabling dynamic agent generation, task auto-splitting, and enhanced communication without relying on predefined operating procedures.
+# MegaAgent: Dynamic Agent Coordination Without SOPs 
 
-## MegaAgent Framework
-We provide the MegaAgent Framework as follows. 
+MegaAgent is a framework designed to manage autonomous cooperation in  large-scale LLM-powered multi-agent systems, enabling dynamic agent  generation, task auto-splitting, and enhanced communication without  relying on predefined operating procedures.
+
+
+
+## Framework
+
+![fig](examples\fig.png)
 
 ## Code Overview
-This repository contains three folders: `Gobang`, `Gobang_manual_SOP`, and `policy_making`. 
+
+This repository contains two parts: the latest version of MegaAgent at `.`, and examples at `examples/`.
+
+To run the latest version, you can add your key and change the prompt in `config.py`, and run `main.py`. The output will be located at `files/`. The default prompt is used for automatically generating a Gobang game.
+
+Some experiments are shown in `examples/` using an older version of MegaAgent. You can use the same prompt while substituting other files with the latest version.
+
+## Experimental Results
+
+![fig2](examples\fig2.png)
+
+<img src="examples\fig3.png" alt="fig3" style="zoom:50%;" />
+
+| Model         | MBPP  | HumanEval | MATH  | GSM-8k |
+| ------------- | ----- | --------- | ----- | ------ |
+| MetaGPT       | 81.7% | 82.3%     | N/A   | N/A    |
+| Camel         | 78.1% | 57.9%     | 22.3% | 45.6%  |
+| AgentVerse    | 82.4% | 89.0%     | 54.5% | 81.2%  |
+| AutoGen       | 85.3% | 85.9%     | 69.5% | 87.8%  |
+| **MegaAgent** | 92.2% | 93.3%     | 69.0% | 93.0%  |
+
+(Objective experiments using gpt-4o as backbone)
 
 
-`Gobang` contains the code and logs for automatically generating a Gobang game using the MegaAgent system. You can add your GPT-4o key in the `config.py` and run the `main.py` to reproduce our results.
 
-`Gobang_manual_SOP` provides the code and logs for generating a Gobang game using a predefined SOP within the MegaAgent framework. You can add your GPT-4o key in the `config.py` and run the `main.py` to reproduce our results.
+## Licenses
 
-`policy_making` houses the code and logs for simulating, testing, and refining policies through autonomous interactions among simulated ministers and citizens using the MegaAgent. You can add your GPT-4o-mini key in the `config.py` and run the `main.py` to reproduce our results.
-
-
-## License
 This repository is under license CC BY 4.0.
