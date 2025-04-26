@@ -32,6 +32,14 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 
 (Objective experiments using gpt-4o as backbone)
 
+We also used GPT-4o to achieve the following results on TravelPlanner. The submission file is included in `examples/travel planner`.
+
+- Delivery Rate: 100.0%
+- Commonsense Constraint Micro Pass Rate:81.88%
+- Commonsense Constraint Macro Pass Rate: 27.22%
+- Hard Constraint Micro Pass Rate: 40.48%
+- Hard Constraint Macro Pass Rate:23.89%
+- Final Pass Rate: 10.0%
 
 
 ## Licenses
