@@ -30,7 +30,7 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 | AutoGen       | 85.3% | 85.9%     | 69.5% | 87.8%  |
 | **MegaAgent** | 92.2% | 93.3%     | 69.0% | 93.0%  |
 
-(Objective experiments using gpt-4o as backbone)
+(Quantitative experiments using gpt-4o as backbone)
 
 We also used GPT-4o to achieve the following results on TravelPlanner. The submission file is included in `examples/travel planner`.
 
