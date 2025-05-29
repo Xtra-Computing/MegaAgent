@@ -1,4 +1,4 @@
-# MegaAgent: Dynamic Agent Coordination Without SOPs 
+# MegaAgent: A Large-Scale Autonomous LLM-based Multi-Agent System Without Predefined SOPs
 
 MegaAgent is a framework designed to manage autonomous cooperation in  large-scale LLM-powered multi-agent systems, enabling dynamic agent  generation, task auto-splitting, and enhanced communication without  relying on predefined operating procedures.
 
