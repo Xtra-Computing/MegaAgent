@@ -45,3 +45,16 @@ We also used GPT-4o to achieve the following results on TravelPlanner. The submi
 ## Licenses
 
 This repository is under license CC BY 4.0.
+
+## Citation
+If you find this repository useful, please cite our paper:
+
+```
+@article{wang2024megaagent,
+  title={Megaagent: A practical framework for autonomous cooperation in large-scale llm agent systems},
+  author={Wang, Qian and Wang, Tianyu and Li, Qinbin and Liang, Jingsheng and He, Bingsheng},
+  journal={arXiv e-prints},
+  pages={arXiv--2408},
+  year={2024}
+}
+```
