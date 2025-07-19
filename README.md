@@ -1,4 +1,6 @@
 # MegaAgent: A Large-Scale Autonomous LLM-based Multi-Agent System Without Predefined SOPs
+[![Paper](https://img.shields.io/badge/arXiv-2408.09955-b31b1b.svg)](https://arxiv.org/abs/2408.09955)
+[![Poster](https://img.shields.io/badge/Poster-PDF-blue.svg)](https://github.com/Xtra-Computing/MegaAgent/blob/master/poster.pdf)
 
 MegaAgent is a framework designed to manage autonomous **parallel** cooperation in large-scale LLM-powered multi-agent systems, enabling **dynamic agent generation**, task auto-splitting, and **enhanced communication without relying on predefined operating procedures**.
 
