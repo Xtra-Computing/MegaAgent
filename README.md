@@ -38,6 +38,9 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 
 <img src="examples/fig3.png" alt="fig3" width="420px" />
 
+<img  width="840px"  src="https://github.com/user-attachments/assets/be6a2829-2356-4eff-af8a-d816a1d6ade6" />
+
+
 
 We also used GPT-4o to achieve the following results on TravelPlanner. The submission file is included in `examples/travel planner`.
 
