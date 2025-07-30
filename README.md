@@ -34,7 +34,7 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 
 ![fig2](examples/fig2.png)
 
-### RQ3: Large-Scale National Policy Simulation involving 590+ parallel agents
+### RQ3: Large-Scale National Policy Simulation involving 590+ dynamically generated parallel agents
 
 <img src="examples/fig3.png" alt="fig3" width="420px" />
 
