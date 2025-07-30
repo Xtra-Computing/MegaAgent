@@ -20,9 +20,7 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 
 ## Experimental Results
 
-![fig2](examples/fig2.png)
-
-<img src="examples/fig3.png" alt="fig3" width="420px" />
+### RQ1: Quantitative experiments using gpt-4o as backbone
 
 | Model         | MBPP  | HumanEval | MATH  | GSM-8k |
 | ------------- | ----- | --------- | ----- | ------ |
@@ -32,7 +30,14 @@ Some experiments are shown in `examples/` using an older version of MegaAgent. Y
 | AutoGen       | 85.3% | 85.9%     | 69.5% | 87.8%  |
 | **MegaAgent** | 92.2% | 93.3%     | 69.0% | 93.0%  |
 
-(Quantitative experiments using gpt-4o as backbone)
+### RQ2: Gobang Game Codebase with multiple code files
+
+![fig2](examples/fig2.png)
+
+### RQ3: Large-Scale National Policy Simulation involving 590+ parallel agents
+
+<img src="examples/fig3.png" alt="fig3" width="420px" />
+
 
 We also used GPT-4o to achieve the following results on TravelPlanner. The submission file is included in `examples/travel planner`.
 
