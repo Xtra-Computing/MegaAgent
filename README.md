@@ -56,15 +56,37 @@ We also used GPT-4o to achieve the following results on TravelPlanner. The submi
 
 This repository is under license CC BY 4.0.
 
+## Acknowledgement
+
+We would like to thank Xinyi Zhang for editing the poster.
+
 ## Citation
 If you find this repository useful, please cite our paper:
 
 ```
-@article{wang2024megaagent,
-  title={Megaagent: A practical framework for autonomous cooperation in large-scale llm agent systems},
-  author={Wang, Qian and Wang, Tianyu and Li, Qinbin and Liang, Jingsheng and He, Bingsheng},
-  journal={arXiv e-prints},
-  pages={arXiv--2408},
-  year={2024}
+@inproceedings{wang-etal-2025-megaagent,
+    title = "{M}ega{A}gent: A Large-Scale Autonomous {LLM}-based Multi-Agent System Without Predefined {SOP}s",
+    author = "Wang, Qian  and
+      Wang, Tianyu  and
+      Tang, Zhenheng  and
+      Li, Qinbin  and
+      Chen, Nuo  and
+      Liang, Jingsheng  and
+      He, Bingsheng",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.259/",
+    doi = "10.18653/v1/2025.findings-acl.259",
+    pages = "4998--5036",
+    ISBN = "979-8-89176-256-5",
+    abstract = "LLM-based multi-agent systems (MAS) have shown promise in tackling complex tasks. However, existing solutions often suffer from limited agent coordination and heavy reliance on predefined Standard Operating Procedures (SOPs), which demand extensive human input. To address these limitations, we propose \textit{MegaAgent}, a large-scale autonomous LLM-based multi-agent system. \textit{MegaAgent} generates agents based on task complexity and enables dynamic task decomposition, parallel execution, efficient communication, and comprehensive system monitoring of agents. In evaluations, \textit{MegaAgent} demonstrates exceptional performance, successfully developing a Gobang game within 800 seconds and scaling up to 590 agents in a national policy simulation to generate multi-domain policies. It significantly outperforms existing systems, such as MetaGPT, in both task completion efficiency and scalability. By eliminating the need for predefined SOPs, \textit{MegaAgent} demonstrates exceptional scalability and autonomy, setting a foundation for advancing true autonomy in MAS."
 }
 ```
+
