@@ -4,7 +4,7 @@ import os
 import json
 import logging
 import time
-written_files = set()
+written_files = {}
 used_names = set()
 tools = []
 input_token=0
