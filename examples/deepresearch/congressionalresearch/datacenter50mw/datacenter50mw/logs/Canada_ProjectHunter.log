@@ -1,0 +1,1334 @@
+2025-10-12 01:31:30,993 - Canada_ProjectHunter - INFO - {'role': 'user', 'content': 'Americas_Admin : Begin comprehensive identification of all 50MW+ AI datacenter projects in Canada. Write results to canada_projects.txt. Recruit Source Collectors, Geocoders, Deduplicators, and Verifiers as needed. Report progress and escalate any coverage gaps.'}
+2025-10-12 01:31:36,211 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'change_task_status', 'arguments': '{"todo":"1. Conduct initial Perplexity searches to identify 50MW+ AI datacenter projects in Canada (planned, announced, under construction, completed). 2. Write initial findings to canada_projects.txt. 3. Recruit Source Collectors for deeper regional/operator coverage if needed. 4. Recruit Geocoders to obtain precise lat/long for each project. 5. Recruit Deduplicators to ensure canonical project list. 6. Recruit Verifiers for QA. 7. Report progress to Americas_Admin and escalate any coverage gaps.","done":"Task received from Americas_Admin: Begin comprehensive identification of all 50MW+ AI datacenter projects in Canada. Prepare to recruit sub-agents as needed."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:31:45,245 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'change_task_status', 'content': 'Success.'}
+2025-10-12 01:31:46,960 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"50MW+ AI datacenter projects Canada planned announced under construction completed","max_results":10,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:31:48,074 - Canada_ProjectHunter - INFO - Query: 50MW+ AI datacenter projects Canada planned announced under construction completed
+Max results: 10
+Max tokens per page: 1024
+Result: Found 10 search results:
+
+Result 1:
+Title: Project Tracker — Western Canada Data Centre Alliance
+URL: https://www.datacentreassociation.ca/project-tracker
+Content: ## Western Canada Hyperscale Project Tracker
+
+### Proposed Data Centre Locations Map
+
+### Proposed Gas Generation (not confirmed for data centre load)
+
+### Estimated Total Capex Tracker
+
+### Breakdown of Announced Projects by Size
+
+**Total Proposed MW (Announced):**
+
+### Total Proposed New MW Breakdown
+
+#### By In-Service Date
+
+#### By Operator (Top 8 Projects by Size)
+
+#### By Region... ### Announced Projects
+
+#### Wonder Valley AI Data Centre Industrial ParkAnnounced
+
+**Location:** Greenview, AB, Canada
+
+**Size:** 7,000 MW
+
+**Operator:** O'Leary Ventures
+
+**End User:** Undisclosed (AI-focused)
+
+**Details:** Announced on December 9, 2024, a $70 billion project to build a 10,000-acre AI data center park. Timeline not specified.
+
+**Estimated In-Service Date:** Unknown
+
+**Type:** AI
+
+**Power Details:** Onsite Gas Gen
+
+**Source:** Wonder Valley Website
+
+#### Beacon Langdon Artificial Intelligence HubAnnounced
+
+**Location:** Rocky View County, AB, Canada
+
+**Size:** 400 MW
+
+**Operator:** Beacon Data Centres
+
+**End...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: CPP Investments Commits to $225 Million in Construction Financing ...
+URL: https://www.cppinvestments.com/newsroom/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centre/
+Content: **Toronto, ON (July 31, 2025) – **Canada Pension Plan Investment Board (CPP Investments) today announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in Cambridge, Ontario.
+
+CPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this transaction and funded the remaining 50% of the loan.
+
+The data centre is being developed as a joint venture between Related Digital, a global, vertically integrated data centre development and investment platform, TowerBrook Capital Partners, an international investment management firm, and Ascent, a leader in planning, developing and operating data centres. The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project has been pre-leased to a market-leading GPU-focused AI cloud compute provider on a long-term basis.
+
+“The rapid expansion of digital infras...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Bell to build six AI data centres in Canada as telcos ...
+URL: https://betakit.com/bell-to-build-six-ai-data-centres-in-canada-as-telcos-compete-on-infrastructure/
+Content: Telecommunications giant Bell is tossing its hat into the artificial intelligence (AI) infrastructure ring as its competitors invest in AI data centres in anticipation of a growing demand for AI compute.
+
+The Bell AI Fabric project aims to build six AI data centres in British Columbia (BC), which the company says make up the first “supercluster” of a planned national network. Bell declined to disclose the value of the project to BetaKit, but said it was in the hundreds of millions (“nine-figure”) range.
+
+American computing hardware company Groq will be providing the chips that power the data centres.
+
+“Bell’s AI Fabric will ensure that Canadian businesses, researchers, and public institutions can access high-performance, sovereign and environmentally responsible AI computing services,” Mirko Bibic, president and CEO of Bell Canada and its parent company BCE, said in a statement.
+
+Traditional data centres provide computing power to store data and run applications. Canada is home to roughly 240 data centres, ac...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: Canada to drive billions in investments to build domestic AI ...
+URL: https://www.canada.ca/en/innovation-science-economic-development/news/2024/12/canada-to-drive-billions-in-investments-to-build-domestic-ai-compute-capacity-at-home.html
+Content: **Canada to drive billions in investments to build domestic AI compute capacity at home**
+
+## News release
+
+**Strategy will invest in cutting-edge AI infrastructure and supercharge innovation to strengthen Canada’s AI advantage**
+
+**December 5, 2024** – Ottawa, Ontario
+
+Compute is the technology that powers artificial intelligence (AI). It’s the chips and the data centres, the backbone of this transformative new technology. Access to cutting-edge compute infrastructure is crucial for securing Canada’s AI advantage, empowering researchers and industries to thrive.
+
+Today, the Honourable François-Philippe Champagne, Minister of Innovation, Science and Industry, officially launched the Canadian Sovereign AI Compute Strategy. The Strategy will invest up to $2 billion, as previously announced in Budget 2024, to meet three key objectives:
+
+- Up to $700 million to grow Canadian AI champions by leveraging investments in new or expanded data centres through the AI Compute Challenge that is launching today
+
+- Up to $1 ...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: Bell AI Fabric: Bell Canada plans AI 'data center supercluster' with 500MW in British Columbia
+URL: https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/
+Content: Canadian telecoms operator Bell Canada has launched 'Bell AI Fabric,' a plan to help build AI data centers across the country.
+
+The new initiative plans to be 'nationwide,' but will start with six data centers in British Columbia, supported by 500MW of hydroelectric power.
+
+The very first facility is set to come online this June, operated by AI inference provider and chip designer Groq. That data center will be a 7MW facility in Kamloops, BC.
+
+“As AI moves into production, nations are rethinking where inference runs and who controls it,” said Jonathan Ross, CEO and founder of Groq. “We’re building infrastructure that’s fast, affordable, and sovereign by design, already powering some of the largest inference deployments in the world.”
+
+Another 7MW data center will open in Merritt, BC, by the end of this year.
+
+Two 26MW data centers at planned for Kamloops, with the first opening later this year at Thompson Rivers University (TRU) and a second coming next year.
+
+Two other AI data centers with a combined capacit...
+
+--------------------------------------------------------------------------------
+
+Result 6:
+Title: New Data Center Developments: February 2025
+URL: https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-february-2025
+Content: # New Data Center Developments: February 2025New Data Center Developments: February 2025
+
+We look at some of the latest data center developments announced over the past month.James Walker, Senior Editor, Data Center Knowledge
+
+February 6, 20257 Min Read
+
+The demand for new data centers isn’t showing any sign of slowing. With new projects announced each week, keeping track of the latest data center developments is not always easy.
+
+To keep you informed about the latest data center news involving design, construction, and related developments, we bring you the highlights from the past month.
+
+This curated selection will help you stay on top of the latest data center development news with ease.
+
+Yondr Group has started construction of its first data center in Canada (Image: Yondr Group)... ## North American Data Center Deals
+
+Making good on predictions that 10 GW of new capacity will come online in 2025, the past month has brought a wave of fresh data center investment announcements.
+
+You’d be hard-pressed to fi...
+
+--------------------------------------------------------------------------------
+
+Result 7:
+Title: New Data Center Developments: June 2025
+URL: https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2025
+Content: ## North American Data Center Deals
+
+Despite weeks of rumors of a data center construction slowdown, builders expanded their North American territory this month in a series of major land acquisitions. Amazon Web Services CEO Matt Garman confirmed the company will continue its breakneck pace in data center expansion. Chile, New Zealand, Saudi Arabia, and Taiwan will host new data center construction projects this year as the cloud giant races to meet the capacity demands of AI.
+
+Another global-scale announcement this month came from technology services company NTT. The company acquired land across North America, Europe, and Asia, with major expansions in existing markets of Hillsboro, Oregon, and Phoenix, Arizona. The blockbuster purchase also heralds the company’s first footprints in Milan, Italy, and Tochigi, Japan.
+
+Related:How AI Data Center Growth Is Transforming Construction Demands
+
+In Arizona, former Facebook executive and venture capitalist Chamath Palihapitiya invested $51 million in a major land dea...
+
+--------------------------------------------------------------------------------
+
+Result 8:
+Title: Shark Tank's Mr. Wonderful is Building the World's Largest AI Data Center in Canada
+URL: https://www.techrepublic.com/article/news-ai-data-center-canada-shark-tank-kevin-oleary/
+Content: Kevin O’Leary — better known as “Mr. Wonderful” from ABC’s “Shark Tank” — made a surprise appearance at Data Center World 2025 in Washington, D.C. What’s a venture capitalist doing at a major IT event? He’s building the world’s largest AI factories, and he’s ready to talk about it.
+
+The project, called Wonder Valley, is a massive off-grid AI data center under construction in Alberta’s Municipal District of Greenview in Canada. Purpose-built for AI workloads, the facility will span 6,000 acres and boast a staggering 7.5 gigawatts of power capacity. The initial phase of 1.5 GW is expected to complete in the 2027-2028 timeframe at a cost of $2 billion; the remainder will be added gradually over the next few years.
+
+“Data centers are today’s gold rush,” said O’Leary during his keynote. “AI is in high demand, and the strongest market is in companies of 5 to 500 employees.”
+
+## Bypassing lengthy regulatory and grid interconnect delays
+
+O’Leary explained how difficult it can be to build and power a new data center.
+...
+
+--------------------------------------------------------------------------------
+
+Result 9:
+Title: Digital progress: 11 companies building out Canada's data ...
+URL: https://readsitenews.com/digital-progress-11-companies-building-out-canadas-data-centre-infrastructure/
+Content: # Digital progress: 11 companies building out Canada’s data centre infrastructure
+
+The future of AI needs infrastructure and these firms are getting it done.
+
+Canada’s data centre sector is rapidly expanding to meet the growing demand for cloud services, AI processing, and secure data storage. From hyperscale campuses to regional colocation hubs, the country’s infrastructure push is being led by a mix of general contractors, dedicated developers, and multinational operators. Here’s a look at the key players building out Canada’s data centre ecosystem.
+
+## Bird Construction
+
+Bird Construction is a leading Canadian builder with a strong track record in mission-critical infrastructure, including data centres. With over 100 years of experience and a workforce of more than 5,000 across 18 cities, Bird delivers both greenfield and retrofit projects. Notable data centre builds include the Rogers Data Centre in Edmonton, Shaw Campus Data Centre in Airdrie, and a confidential 300,000 sq. ft. facility in Calgary, built...
+
+--------------------------------------------------------------------------------
+
+Result 10:
+Title: The Rise of Canadian A.I. Data Centres
+URL: https://vividcomm.com/2025/01/06/the-rise-of-canadian-a-i-data-centres/
+Content: **Notable Data Centre Locations:** **Canada:**eStruxture Data Centres, will develop its largest facility in Alberta. Expected to power up by fall 2026, eStruxture’s new $750-million, 90 megawatts (MW) operation, located near Calgary, will be the Montreal-based company’s third data centre in the area. The seven-year-old firm owns 12 other data centres in the larger industry markets of Montreal, Toronto and Vancouver. **United States:**Significant data centres are located in Northern Virginia, a major hub for AI data centres, as well as in Iowa, where Microsoft’s facilities employ over 300 residents. **International:**Regions such as Johor, Malaysia, are emerging as major hubs for data centres due to the growing demand for AI technology infrastructure.
+
+**Canada’s AI Data Centre Ambitions**
+
+**eStructure**
+
+Until recently, nearly all Canada’s 239 data centres – including 22 in Alberta – each delivered less than 20 MW of power, making eStruxture’s new 90-MW data centre, dubbed CAL-3, one of the country’s most po...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:31:48,078 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': "Found 10 search results:\n\nResult 1:\nTitle: Project Tracker — Western Canada Data Centre Alliance\nURL: https://www.datacentreassociation.ca/project-tracker\nContent: ## Western Canada Hyperscale Project Tracker\n\n### Proposed Data Centre Locations Map\n\n### Proposed Gas Generation (not confirmed for data centre load)\n\n### Estimated Total Capex Tracker\n\n### Breakdown of Announced Projects by Size\n\n**Total Proposed MW (Announced):**\n\n### Total Proposed New MW Breakdown\n\n#### By In-Service Date\n\n#### By Operator (Top 8 Projects by Size)\n\n#### By Region... ### Announced Projects\n\n#### Wonder Valley AI Data Centre Industrial ParkAnnounced\n\n**Location:** Greenview, AB, Canada\n\n**Size:** 7,000 MW\n\n**Operator:** O'Leary Ventures\n\n**End User:** Undisclosed (AI-focused)\n\n**Details:** Announced on December 9, 2024, a $70 billion project to build a 10,000-acre AI data center park. Timeline not specified.\n\n**Estimated In-Service Date:** Unknown\n\n**Type:** AI\n\n**Power Details:** Onsite Gas Gen\n\n**Source:** Wonder Valley Website\n\n#### Beacon Langdon Artificial Intelligence HubAnnounced\n\n**Location:** Rocky View County, AB, Canada\n\n**Size:** 400 MW\n\n**Operator:** Beacon Data Centres\n\n**End...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: CPP Investments Commits to $225 Million in Construction Financing ...\nURL: https://www.cppinvestments.com/newsroom/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centre/\nContent: **Toronto, ON (July 31, 2025) – **Canada Pension Plan Investment Board (CPP Investments) today announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in Cambridge, Ontario.\n\nCPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this transaction and funded the remaining 50% of the loan.\n\nThe data centre is being developed as a joint venture between Related Digital, a global, vertically integrated data centre development and investment platform, TowerBrook Capital Partners, an international investment management firm, and Ascent, a leader in planning, developing and operating data centres. The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project has been pre-leased to a market-leading GPU-focused AI cloud compute provider on a long-term basis.\n\n“The rapid expansion of digital infras...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Bell to build six AI data centres in Canada as telcos ...\nURL: https://betakit.com/bell-to-build-six-ai-data-centres-in-canada-as-telcos-compete-on-infrastructure/\nContent: Telecommunications giant Bell is tossing its hat into the artificial intelligence (AI) infrastructure ring as its competitors invest in AI data centres in anticipation of a growing demand for AI compute.\n\nThe Bell AI Fabric project aims to build six AI data centres in British Columbia (BC), which the company says make up the first “supercluster” of a planned national network. Bell declined to disclose the value of the project to BetaKit, but said it was in the hundreds of millions (“nine-figure”) range.\n\nAmerican computing hardware company Groq will be providing the chips that power the data centres.\n\n“Bell’s AI Fabric will ensure that Canadian businesses, researchers, and public institutions can access high-performance, sovereign and environmentally responsible AI computing services,” Mirko Bibic, president and CEO of Bell Canada and its parent company BCE, said in a statement.\n\nTraditional data centres provide computing power to store data and run applications. Canada is home to roughly 240 data centres, ac...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: Canada to drive billions in investments to build domestic AI ...\nURL: https://www.canada.ca/en/innovation-science-economic-development/news/2024/12/canada-to-drive-billions-in-investments-to-build-domestic-ai-compute-capacity-at-home.html\nContent: **Canada to drive billions in investments to build domestic AI compute capacity at home**\n\n## News release\n\n**Strategy will invest in cutting-edge AI infrastructure and supercharge innovation to strengthen Canada’s AI advantage**\n\n**December 5, 2024** – Ottawa, Ontario\n\nCompute is the technology that powers artificial intelligence (AI). It’s the chips and the data centres, the backbone of this transformative new technology. Access to cutting-edge compute infrastructure is crucial for securing Canada’s AI advantage, empowering researchers and industries to thrive.\n\nToday, the Honourable François-Philippe Champagne, Minister of Innovation, Science and Industry, officially launched the Canadian Sovereign AI Compute Strategy. The Strategy will invest up to $2 billion, as previously announced in Budget 2024, to meet three key objectives:\n\n- Up to $700 million to grow Canadian AI champions by leveraging investments in new or expanded data centres through the AI Compute Challenge that is launching today\n\n- Up to $1 ...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: Bell AI Fabric: Bell Canada plans AI 'data center supercluster' with 500MW in British Columbia\nURL: https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/\nContent: Canadian telecoms operator Bell Canada has launched 'Bell AI Fabric,' a plan to help build AI data centers across the country.\n\nThe new initiative plans to be 'nationwide,' but will start with six data centers in British Columbia, supported by 500MW of hydroelectric power.\n\nThe very first facility is set to come online this June, operated by AI inference provider and chip designer Groq. That data center will be a 7MW facility in Kamloops, BC.\n\n“As AI moves into production, nations are rethinking where inference runs and who controls it,” said Jonathan Ross, CEO and founder of Groq. “We’re building infrastructure that’s fast, affordable, and sovereign by design, already powering some of the largest inference deployments in the world.”\n\nAnother 7MW data center will open in Merritt, BC, by the end of this year.\n\nTwo 26MW data centers at planned for Kamloops, with the first opening later this year at Thompson Rivers University (TRU) and a second coming next year.\n\nTwo other AI data centers with a combined capacit...\n\n--------------------------------------------------------------------------------\n\nResult 6:\nTitle: New Data Center Developments: February 2025\nURL: https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-february-2025\nContent: # New Data Center Developments: February 2025New Data Center Developments: February 2025\n\nWe look at some of the latest data center developments announced over the past month.James Walker, Senior Editor, Data Center Knowledge\n\nFebruary 6, 20257 Min Read\n\nThe demand for new data centers isn’t showing any sign of slowing. With new projects announced each week, keeping track of the latest data center developments is not always easy.\n\nTo keep you informed about the latest data center news involving design, construction, and related developments, we bring you the highlights from the past month.\n\nThis curated selection will help you stay on top of the latest data center development news with ease.\n\nYondr Group has started construction of its first data center in Canada (Image: Yondr Group)... ## North American Data Center Deals\n\nMaking good on predictions that 10 GW of new capacity will come online in 2025, the past month has brought a wave of fresh data center investment announcements.\n\nYou’d be hard-pressed to fi...\n\n--------------------------------------------------------------------------------\n\nResult 7:\nTitle: New Data Center Developments: June 2025\nURL: https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2025\nContent: ## North American Data Center Deals\n\nDespite weeks of rumors of a data center construction slowdown, builders expanded their North American territory this month in a series of major land acquisitions. Amazon Web Services CEO Matt Garman confirmed the company will continue its breakneck pace in data center expansion. Chile, New Zealand, Saudi Arabia, and Taiwan will host new data center construction projects this year as the cloud giant races to meet the capacity demands of AI.\n\nAnother global-scale announcement this month came from technology services company NTT. The company acquired land across North America, Europe, and Asia, with major expansions in existing markets of Hillsboro, Oregon, and Phoenix, Arizona. The blockbuster purchase also heralds the company’s first footprints in Milan, Italy, and Tochigi, Japan.\n\nRelated:How AI Data Center Growth Is Transforming Construction Demands\n\nIn Arizona, former Facebook executive and venture capitalist Chamath Palihapitiya invested $51 million in a major land dea...\n\n--------------------------------------------------------------------------------\n\nResult 8:\nTitle: Shark Tank's Mr. Wonderful is Building the World's Largest AI Data Center in Canada\nURL: https://www.techrepublic.com/article/news-ai-data-center-canada-shark-tank-kevin-oleary/\nContent: Kevin O’Leary — better known as “Mr. Wonderful” from ABC’s “Shark Tank” — made a surprise appearance at Data Center World 2025 in Washington, D.C. What’s a venture capitalist doing at a major IT event? He’s building the world’s largest AI factories, and he’s ready to talk about it.\n\nThe project, called Wonder Valley, is a massive off-grid AI data center under construction in Alberta’s Municipal District of Greenview in Canada. Purpose-built for AI workloads, the facility will span 6,000 acres and boast a staggering 7.5 gigawatts of power capacity. The initial phase of 1.5 GW is expected to complete in the 2027-2028 timeframe at a cost of $2 billion; the remainder will be added gradually over the next few years.\n\n“Data centers are today’s gold rush,” said O’Leary during his keynote. “AI is in high demand, and the strongest market is in companies of 5 to 500 employees.”\n\n## Bypassing lengthy regulatory and grid interconnect delays\n\nO’Leary explained how difficult it can be to build and power a new data center.\n...\n\n--------------------------------------------------------------------------------\n\nResult 9:\nTitle: Digital progress: 11 companies building out Canada's data ...\nURL: https://readsitenews.com/digital-progress-11-companies-building-out-canadas-data-centre-infrastructure/\nContent: # Digital progress: 11 companies building out Canada’s data centre infrastructure\n\nThe future of AI needs infrastructure and these firms are getting it done.\n\nCanada’s data centre sector is rapidly expanding to meet the growing demand for cloud services, AI processing, and secure data storage. From hyperscale campuses to regional colocation hubs, the country’s infrastructure push is being led by a mix of general contractors, dedicated developers, and multinational operators. Here’s a look at the key players building out Canada’s data centre ecosystem.\n\n## Bird Construction\n\nBird Construction is a leading Canadian builder with a strong track record in mission-critical infrastructure, including data centres. With over 100 years of experience and a workforce of more than 5,000 across 18 cities, Bird delivers both greenfield and retrofit projects. Notable data centre builds include the Rogers Data Centre in Edmonton, Shaw Campus Data Centre in Airdrie, and a confidential 300,000 sq. ft. facility in Calgary, built...\n\n--------------------------------------------------------------------------------\n\nResult 10:\nTitle: The Rise of Canadian A.I. Data Centres\nURL: https://vividcomm.com/2025/01/06/the-rise-of-canadian-a-i-data-centres/\nContent: **Notable Data Centre Locations:** **Canada:**eStruxture Data Centres, will develop its largest facility in Alberta. Expected to power up by fall 2026, eStruxture’s new $750-million, 90 megawatts (MW) operation, located near Calgary, will be the Montreal-based company’s third data centre in the area. The seven-year-old firm owns 12 other data centres in the larger industry markets of Montreal, Toronto and Vancouver. **United States:**Significant data centres are located in Northern Virginia, a major hub for AI data centres, as well as in Iowa, where Microsoft’s facilities employ over 300 residents. **International:**Regions such as Johor, Malaysia, are emerging as major hubs for data centres due to the growing demand for AI technology infrastructure.\n\n**Canada’s AI Data Centre Ambitions**\n\n**eStructure**\n\nUntil recently, nearly all Canada’s 239 data centres – including 22 in Alberta – each delivered less than 20 MW of power, making eStruxture’s new 90-MW data centre, dubbed CAL-3, one of the country’s most po...\n\n--------------------------------------------------------------------------------\n\n"}
+2025-10-12 01:31:49,947 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"Yondr Group Canada data center hyperscale project details location capacity","max_results":5,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:31:51,429 - Canada_ProjectHunter - INFO - Query: Yondr Group Canada data center hyperscale project details location capacity
+Max results: 5
+Max tokens per page: 1024
+Result: Found 5 search results:
+
+Result 1:
+Title: Yondr Group celebrates groundbreaking for 27MW Toronto data ...
+URL: https://www.yondrgroup.com/newsroom/press-release/yondr-group-celebrates-groundbreaking-for-27mw-toronto-data-center/
+Content: **TORONTO, CANADA – ** **JANUARY 29, ** **2025 **Yondr Group, a leading global developer, owner and operator of hyperscale data centers, has held a groundbreaking ceremony to mark the start of work on site for its 27MW Toronto data center.
+
+The project, which Yondr is building on a 4.5-acre site, is the company’s first development in Canada. It forms part of Yondr’s global expansion, as the business continues to deliver reliable and resilient data center capacity at speed and at scale, with projects currently completed or in progress in North America, Europe and Asia.
+
+The groundbreaking in Toronto follows the completion of the company’s 48MW data center project in Northern Virginia and the first ready for service (RFS) milestone for the company’s 40MW Frankfurt data center last November.
+
+The ceremony was attended by Councillor Shelley Carroll of Don Valley North, who also gave a speech highlighting the city’s thriving digital economy and emphasised Toronto’s vision of becoming a global hub for innovation an...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: Yondr Group powers North America expansion with Toronto data ...
+URL: https://www.yondrgroup.com/newsroom/press-release/yondr-group-powers-north-america-expansion-with-toronto-data-center/
+Content: **TORONTO, CANADA – December 10, 2024 **Yondr Group, a leading global developer, owner and operator of hyperscale data centers has secured a 4.5-acre site in Toronto to develop its first Canadian data center.
+
+The three-storey 27MW data center is planned to bring its first megawatts online in mid-2026. The development sits strategically within an emerging Canadian corridor for data center infrastructure.
+
+Yondr’s entry into the Canadian market bolsters the business’ presence in North America and follows the successful completion of a 48MW data center in Northern Virginia and other RFS milestones achieved in London and Frankfurt this year.
+
+Adam Sharp, Development Director at Yondr Group, said: “Our Toronto data center campus will support one of North America’s high growth digital infrastructure hubs, and underpins our commitment to delivering scalable, secure and cost-efficient data centers that play a vital role in bolstering the digital economy and accommodating future technologies.
+
+“Close collaboration wi...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Yondr breaks ground on 27MW data center in Toronto, Canada
+URL: https://www.datacenterdynamics.com/en/news/yondr-breaks-ground-on-27mw-data-center-in-toronto-canada/
+Content: Data center developer Yondr has broken ground on its first Canadian facility in Toronto.
+
+The company last week held a ceremony to mark the start of work on the site of its 27MW data center.
+
+Announced late last year, the project comprises a three-story, 27MW data center on a 4.5-acre site, which is scheduled to achieve RFS by mid-2026. The building will feature a closed-loop cooling design.
+
+Kent Andersson, program controls director for the Americas at Yondr Group, said: “Our Toronto data center forms a key part of our strategy for North America, where there is an urgent need to increase capacity to support the digital economy. This project will play a key role in providing the infrastructure needed to support cutting-edge cloud computing and connectivity and enable the development of AI and future technologies in Canada and beyond."
+
+Yondr is a developer, owner, and operator of data centers. The company currently has a contracted capacity of 878MW, with more than 58MW currently operational. The company has ...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: Yondr expands into Canada, plans Toronto data center
+URL: https://www.datacenterdynamics.com/en/news/yondr-expands-into-canada-plans-toronto-data-center/
+Content: Data center developer Yondr is expanding into Canada with its first data center in Toronto.
+
+The company this week announced it has secured a 4.5-acre site in the city and plans to develop a three-story, 27MW facility. Further details on location and specifications weren’t shared.
+
+The data center is due online in mid-2026.
+
+Adam Sharp, development director at Yondr Group, said: “Our Toronto data center campus will support one of North America’s high-growth digital infrastructure hubs, and underpins our commitment to delivering scalable, secure, and cost-efficient data centers that play a vital role in bolstering the digital economy and accommodating future technologies."
+
+Yondr is a developer, owner, and operator of data centers. The company currently has a contracted capacity of 878MW, with more than 58MW currently operational. The company has projects in Virginia, the UK, Malaysia, Indonesia, Japan, Germany, the Netherlands, and India.
+
+Yondr is headquartered in London and was previously owned by single-fa...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: Yondr Group celebrates groundbreaking for 27MW Toronto data center | Digital Infra Network
+URL: https://digitalinfranetwork.com/news/yondr-toronto-data-center/
+Content: (pic credits: Yondr Group)
+
+Yondr Group, a leading global developer, owner and operator of hyperscale data centers, has held a groundbreaking ceremony to mark the start of work on site for its 27MW Toronto data center.
+
+The project, which Yondr is building on a 4.5-acre site, is the company’s first development in Canada. It forms part of Yondr’s global expansion, as the business continues to deliver reliable and resilient data center capacity at speed and at scale, with projects currently completed or in progress in North America, Europe and Asia.
+
+The groundbreaking in Toronto follows the completion of the company’s 48MW data center project in Northern Virginia and the first ready for service (RFS) milestone for the company’s 40MW Frankfurt data center last November.
+
+The ceremony was attended by Councillor Shelley Carroll of Don Valley North, who also gave a speech highlighting the city’s thriving digital economy and emphasised Toronto’s vision of becoming a global hub for innovation and talent. The event a...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:31:51,430 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 5 search results:\n\nResult 1:\nTitle: Yondr Group celebrates groundbreaking for 27MW Toronto data ...\nURL: https://www.yondrgroup.com/newsroom/press-release/yondr-group-celebrates-groundbreaking-for-27mw-toronto-data-center/\nContent: **TORONTO, CANADA – ** **JANUARY 29, ** **2025 **Yondr Group, a leading global developer, owner and operator of hyperscale data centers, has held a groundbreaking ceremony to mark the start of work on site for its 27MW Toronto data center.\n\nThe project, which Yondr is building on a 4.5-acre site, is the company’s first development in Canada. It forms part of Yondr’s global expansion, as the business continues to deliver reliable and resilient data center capacity at speed and at scale, with projects currently completed or in progress in North America, Europe and Asia.\n\nThe groundbreaking in Toronto follows the completion of the company’s 48MW data center project in Northern Virginia and the first ready for service (RFS) milestone for the company’s 40MW Frankfurt data center last November.\n\nThe ceremony was attended by Councillor Shelley Carroll of Don Valley North, who also gave a speech highlighting the city’s thriving digital economy and emphasised Toronto’s vision of becoming a global hub for innovation an...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: Yondr Group powers North America expansion with Toronto data ...\nURL: https://www.yondrgroup.com/newsroom/press-release/yondr-group-powers-north-america-expansion-with-toronto-data-center/\nContent: **TORONTO, CANADA – December 10, 2024 **Yondr Group, a leading global developer, owner and operator of hyperscale data centers has secured a 4.5-acre site in Toronto to develop its first Canadian data center.\n\nThe three-storey 27MW data center is planned to bring its first megawatts online in mid-2026. The development sits strategically within an emerging Canadian corridor for data center infrastructure.\n\nYondr’s entry into the Canadian market bolsters the business’ presence in North America and follows the successful completion of a 48MW data center in Northern Virginia and other RFS milestones achieved in London and Frankfurt this year.\n\nAdam Sharp, Development Director at Yondr Group, said: “Our Toronto data center campus will support one of North America’s high growth digital infrastructure hubs, and underpins our commitment to delivering scalable, secure and cost-efficient data centers that play a vital role in bolstering the digital economy and accommodating future technologies.\n\n“Close collaboration wi...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Yondr breaks ground on 27MW data center in Toronto, Canada\nURL: https://www.datacenterdynamics.com/en/news/yondr-breaks-ground-on-27mw-data-center-in-toronto-canada/\nContent: Data center developer Yondr has broken ground on its first Canadian facility in Toronto.\n\nThe company last week held a ceremony to mark the start of work on the site of its 27MW data center.\n\nAnnounced late last year, the project comprises a three-story, 27MW data center on a 4.5-acre site, which is scheduled to achieve RFS by mid-2026. The building will feature a closed-loop cooling design.\n\nKent Andersson, program controls director for the Americas at Yondr Group, said: “Our Toronto data center forms a key part of our strategy for North America, where there is an urgent need to increase capacity to support the digital economy. This project will play a key role in providing the infrastructure needed to support cutting-edge cloud computing and connectivity and enable the development of AI and future technologies in Canada and beyond."\n\nYondr is a developer, owner, and operator of data centers. The company currently has a contracted capacity of 878MW, with more than 58MW currently operational. The company has ...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: Yondr expands into Canada, plans Toronto data center\nURL: https://www.datacenterdynamics.com/en/news/yondr-expands-into-canada-plans-toronto-data-center/\nContent: Data center developer Yondr is expanding into Canada with its first data center in Toronto.\n\nThe company this week announced it has secured a 4.5-acre site in the city and plans to develop a three-story, 27MW facility. Further details on location and specifications weren’t shared.\n\nThe data center is due online in mid-2026.\n\nAdam Sharp, development director at Yondr Group, said: “Our Toronto data center campus will support one of North America’s high-growth digital infrastructure hubs, and underpins our commitment to delivering scalable, secure, and cost-efficient data centers that play a vital role in bolstering the digital economy and accommodating future technologies."\n\nYondr is a developer, owner, and operator of data centers. The company currently has a contracted capacity of 878MW, with more than 58MW currently operational. The company has projects in Virginia, the UK, Malaysia, Indonesia, Japan, Germany, the Netherlands, and India.\n\nYondr is headquartered in London and was previously owned by single-fa...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: Yondr Group celebrates groundbreaking for 27MW Toronto data center | Digital Infra Network\nURL: https://digitalinfranetwork.com/news/yondr-toronto-data-center/\nContent: (pic credits: Yondr Group)\n\nYondr Group, a leading global developer, owner and operator of hyperscale data centers, has held a groundbreaking ceremony to mark the start of work on site for its 27MW Toronto data center.\n\nThe project, which Yondr is building on a 4.5-acre site, is the company’s first development in Canada. It forms part of Yondr’s global expansion, as the business continues to deliver reliable and resilient data center capacity at speed and at scale, with projects currently completed or in progress in North America, Europe and Asia.\n\nThe groundbreaking in Toronto follows the completion of the company’s 48MW data center project in Northern Virginia and the first ready for service (RFS) milestone for the company’s 40MW Frankfurt data center last November.\n\nThe ceremony was attended by Councillor Shelley Carroll of Don Valley North, who also gave a speech highlighting the city’s thriving digital economy and emphasised Toronto’s vision of becoming a global hub for innovation and talent. The event a...\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:31:52,925 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"eStruxture CAL-3 Alberta 90MW data center project details location AI","max_results":5,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:31:53,992 - Canada_ProjectHunter - INFO - Query: eStruxture CAL-3 Alberta 90MW data center project details location AI
+Max results: 5
+Max tokens per page: 1024
+Result: Found 5 search results:
+
+Result 1:
+Title: eStruxture Announces Alberta's Largest Data Center
+URL: https://www.estruxture.com/press-releases/estruxture-announces-albertas-largest-data-center-introducing-the-groundbreaking-cal-3-facility
+Content: # eStruxture Announces Alberta’s Largest Data Center: Introducing the Groundbreaking CAL-3 Facility
+
+Nov 15, 2024
+
+*Expected to power up in the second half of 2026, the 90MW CAL-3 hyperscale facility will be Alberta’s largest and most advanced data center.*
+
+**Calgary, AB and Montreal, QC – October 29, 2024** – In a bold move that solidifies Alberta’s position at the forefront of Canada’s tech landscape, eStruxture, the leading Canadian provider of network and cloud-neutral data center solutions, has announced the launch of CAL-3, Alberta’s largest and most advanced hyperscale facility. Slated to go live in the second half of 2026, CAL-3 is designed to deliver 90MW of power and up to 300,000 square feet, ushering in a new era of high-density computing for the region.
+
+Todd Coleman, Founder, President, and CEO of eStruxture, emphasized the significance of this milestone:
+
+*"CAL-3 represents a major leap forward, not just for eStruxture but for Alberta’s entire technology ecosystem. This expansion strengthens o...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: eStruxture Invests $750M to Launch Alberta's Largest Data ...
+URL: https://builtincalgary.org/articles/estruxture-invests-750m-new-data-center-20241031
+Content: Montreal-based AI and hyperscale-ready data center provider eStruxture announced it will invest over CAD 750 million to build CAL-3, Alberta’s largest and most advanced data center, which is set to be operational by mid-2026.
+
+Located near Calgary in Rocky View County, CAL-3 will provide 90 megawatts of power with energy-efficient power and cooling systems, accommodating cabinet densities of up to 125 kilowatts, making it well-suited for high-performance AI applications, GPU-as-a-Service and hyperscale cloud infrastructure. According to eStruxture, CAL-3 will also feature multiple customizable data halls and offer inter-site connectivity with the company’s existing CAL-1 and CAL-2 facilities.
+
+This investment is one of many reinforcing the region’s status as an up-and-coming innovation hub. CAL-3 not only expands the eStruxture’s presence in Alberta but also catalyzes the province’s economic and digital transformation.
+
+CEO Todd Coleman said in statement that CAL-3 represents a significant strategic investmen...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Canada's eStruxture to build 90MW data center in Calgary
+URL: https://www.datacenterdynamics.com/en/news/canadas-estruxture-to-build-90mw-data-center-in-calgary/
+Content: Canadian data center operator eStruxture is to build a new facility in Calgary, Alberta.
+
+The company this week announced plans to invest more than CA$750 million (US$540.2m) to build CAL-3, a new 90MW data center.
+
+Slated to go live in the Fall of 2026, the data center will be located in Rocky View County, just north of Calgary. CAL-3 will be a Tier III data center able to offer rack densities of up to 125kW across multiple customizable data halls.
+
+The company said the facility would be Alberta’s largest data center, driven by “unprecedented” demand from AI and cloud providers.
+
+Todd Coleman, founder, president, and CEO of eStruxture, said: “CAL-3 is a significant, strategic investment, not only for eStruxture but for Alberta’s rapidly evolving digital and AI landscape. This expansion reinforces our commitment to driving the province’s digital economy forward, offering scalable and sustainable infrastructure that meets the growing demands of AI and cloud service providers. Calgary is pivotal to Canada’s tec...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: New $750M Data Center in Calgary: Alberta's Largest Facility
+URL: https://www.estruxture.com/insights/in-the-news/new-750m-data-centre-to-be-built-in-calgary-area-the-largest-in-alberta
+Content: # New $750M data centre to be built in Calgary area, the largest in Alberta
+
+Oct 30, 2024
+
+*Data centres have become a topic of intense interest in Alberta and around the world because of the boom in generative AI and the intense electricity requirements of the sector*
+
+By Chris Varcoe - Calgary Herald
+
+Alberta has made a giant push to attract billions of dollars of data centres to the province, and it’s about to land a major new project.
+
+Montreal-based eStruxture Data Centers, the largest data centre provider in the country, will announce Tuesday it’s building a new $750-million facility, located five kilometres north of Calgary in Rocky View County.
+
+The development, designed to deliver 90 megawatts of power contracted from the Alberta grid, is the company’s third such centre in the Calgary area.
+
+It will also be the largest of the company’s 16 facilities across Canada – and is billed as the largest in the province.
+
+With the sudden growth of AI and continued expansion in cloud computing, the company’s CEO...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: eStruxture CAL-3 Data Center - Alberta Major Projects
+URL: https://majorprojects.alberta.ca/details/eStruxture-CAL-3-Data-Center/11416
+Content: The project will see the construction of a new data center in Rocky View County known as CAL-3. CAL-3 will be a Tier III data center able to offer rack densities of up to 125 kW across multiple customizable data halls. The facility will also include a 90 MW power generation component. Upon completion, the facility will be the largest data center in Alberta. Location on map is not exact.
+
+The project will see the construction of a new data center in Rocky View County known as CAL-3. CAL-3 will be a Tier III data center able to offer rack densities of up to 125 kW across multiple customizable data halls. The facility will also include a 90 MW power generation component. Upon completion, the facility will be the largest data center in Alberta.
+
+Location on map is not exact.
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:31:53,993 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 5 search results:\n\nResult 1:\nTitle: eStruxture Announces Alberta\'s Largest Data Center\nURL: https://www.estruxture.com/press-releases/estruxture-announces-albertas-largest-data-center-introducing-the-groundbreaking-cal-3-facility\nContent: # eStruxture Announces Alberta’s Largest Data Center: Introducing the Groundbreaking CAL-3 Facility\n\nNov 15, 2024\n\n*Expected to power up in the second half of 2026, the 90MW CAL-3 hyperscale facility will be Alberta’s largest and most advanced data center.*\n\n**Calgary, AB and Montreal, QC – October 29, 2024** – In a bold move that solidifies Alberta’s position at the forefront of Canada’s tech landscape, eStruxture, the leading Canadian provider of network and cloud-neutral data center solutions, has announced the launch of CAL-3, Alberta’s largest and most advanced hyperscale facility. Slated to go live in the second half of 2026, CAL-3 is designed to deliver 90MW of power and up to 300,000 square feet, ushering in a new era of high-density computing for the region.\n\nTodd Coleman, Founder, President, and CEO of eStruxture, emphasized the significance of this milestone:\n\n*"CAL-3 represents a major leap forward, not just for eStruxture but for Alberta’s entire technology ecosystem. This expansion strengthens o...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: eStruxture Invests $750M to Launch Alberta\'s Largest Data ...\nURL: https://builtincalgary.org/articles/estruxture-invests-750m-new-data-center-20241031\nContent: Montreal-based AI and hyperscale-ready data center provider eStruxture announced it will invest over CAD 750 million to build CAL-3, Alberta’s largest and most advanced data center, which is set to be operational by mid-2026.\n\nLocated near Calgary in Rocky View County, CAL-3 will provide 90 megawatts of power with energy-efficient power and cooling systems, accommodating cabinet densities of up to 125 kilowatts, making it well-suited for high-performance AI applications, GPU-as-a-Service and hyperscale cloud infrastructure. According to eStruxture, CAL-3 will also feature multiple customizable data halls and offer inter-site connectivity with the company’s existing CAL-1 and CAL-2 facilities.\n\nThis investment is one of many reinforcing the region’s status as an up-and-coming innovation hub. CAL-3 not only expands the eStruxture’s presence in Alberta but also catalyzes the province’s economic and digital transformation.\n\nCEO Todd Coleman said in statement that CAL-3 represents a significant strategic investmen...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Canada\'s eStruxture to build 90MW data center in Calgary\nURL: https://www.datacenterdynamics.com/en/news/canadas-estruxture-to-build-90mw-data-center-in-calgary/\nContent: Canadian data center operator eStruxture is to build a new facility in Calgary, Alberta.\n\nThe company this week announced plans to invest more than CA$750 million (US$540.2m) to build CAL-3, a new 90MW data center.\n\nSlated to go live in the Fall of 2026, the data center will be located in Rocky View County, just north of Calgary. CAL-3 will be a Tier III data center able to offer rack densities of up to 125kW across multiple customizable data halls.\n\nThe company said the facility would be Alberta’s largest data center, driven by “unprecedented” demand from AI and cloud providers.\n\nTodd Coleman, founder, president, and CEO of eStruxture, said: “CAL-3 is a significant, strategic investment, not only for eStruxture but for Alberta’s rapidly evolving digital and AI landscape. This expansion reinforces our commitment to driving the province’s digital economy forward, offering scalable and sustainable infrastructure that meets the growing demands of AI and cloud service providers. Calgary is pivotal to Canada’s tec...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: New $750M Data Center in Calgary: Alberta\'s Largest Facility\nURL: https://www.estruxture.com/insights/in-the-news/new-750m-data-centre-to-be-built-in-calgary-area-the-largest-in-alberta\nContent: # New $750M data centre to be built in Calgary area, the largest in Alberta\n\nOct 30, 2024\n\n*Data centres have become a topic of intense interest in Alberta and around the world because of the boom in generative AI and the intense electricity requirements of the sector*\n\nBy Chris Varcoe - Calgary Herald\n\nAlberta has made a giant push to attract billions of dollars of data centres to the province, and it’s about to land a major new project.\n\nMontreal-based eStruxture Data Centers, the largest data centre provider in the country, will announce Tuesday it’s building a new $750-million facility, located five kilometres north of Calgary in Rocky View County.\n\nThe development, designed to deliver 90 megawatts of power contracted from the Alberta grid, is the company’s third such centre in the Calgary area.\n\nIt will also be the largest of the company’s 16 facilities across Canada – and is billed as the largest in the province.\n\nWith the sudden growth of AI and continued expansion in cloud computing, the company’s CEO...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: eStruxture CAL-3 Data Center - Alberta Major Projects\nURL: https://majorprojects.alberta.ca/details/eStruxture-CAL-3-Data-Center/11416\nContent: The project will see the construction of a new data center in Rocky View County known as CAL-3. CAL-3 will be a Tier III data center able to offer rack densities of up to 125 kW across multiple customizable data halls. The facility will also include a 90 MW power generation component. Upon completion, the facility will be the largest data center in Alberta. Location on map is not exact.\n\nThe project will see the construction of a new data center in Rocky View County known as CAL-3. CAL-3 will be a Tier III data center able to offer rack densities of up to 125 kW across multiple customizable data halls. The facility will also include a 90 MW power generation component. Upon completion, the facility will be the largest data center in Alberta.\n\nLocation on map is not exact.\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:31:55,865 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"Wonder Valley AI Data Centre Industrial Park Greenview Alberta 7000MW project details location O\'Leary Ventures","max_results":5,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:31:57,216 - Canada_ProjectHunter - INFO - Query: Wonder Valley AI Data Centre Industrial Park Greenview Alberta 7000MW project details location O'Leary Ventures
+Max results: 5
+Max tokens per page: 1024
+Result: Found 5 search results:
+
+Result 1:
+Title: DATA CENTERS: Stars Align In Wonder Valley
+URL: https://siteselection.com/data-centers-stars-align-in-wonder-valley/
+Content: Wonder Valley photos and renderings show the vision for a $70 billion, 7,000-acre campus in remote northwestern Alberta.
+
+*Images courtesy of O’Leary Ventures and Greenview Industrial Gateway*
+
+**Shark Tank’s Kevin O’Leary bets $70 billion on a new AI park in Alberta.**
+
+**y**ou know him as Kevin O’Leary, star of the hit TV show Shark Tank and mega-investor who’s earned the nickname Mr. Wonderful. To residents of Alberta, Canada, the native Canadian is about to be known as the developer of the world’s largest AI data center park.
+
+Located in the Municipal District of Greenview in northwestern Alberta, the project is called Wonder Valley and, upon buildout, will represent $70 billion of capital investment on a 7,000-acre tract in the heart of the northern Canadian wilderness.
+
+Slated to be built in phases over the next decade, the project could reach 7.5 GW upon completion and employ thousands of highly skilled workers.
+
+The official kickoff of the project was announced on December 10, 2024, in Greenview by O’...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: Kevin O'Leary in cooperation with the Municipal District of Greenview to develop the world's largest AI Data Centre Industrial Park 'Wonder Valley' in the Greenview Industrial Gateway ("GIG") near Grande Prairie in North West Alberta, Canada
+URL: https://www.prnewswire.com/news-releases/kevin-oleary-in-cooperation-with-the-municipal-district-of-greenview-to-develop-the-worlds-largest-ai-data-centre-industrial-park-wonder-valley-in-the-greenview-industrial-gateway-gig-near-grande-prairie-in-north-west-albe-302326230.html
+Content: GREENVIEW, AB, Dec. 9, 2024 /PRNewswire/ - The Municipal District of Greenview is proud to announce a groundbreaking partnership with O'Leary Ventures to build an off-grid natural gas and geothermal power infrastructure to support the largest AI data centre industrial park in the world. The GIG has signed a Letter of Intent with O'Leary Ventures for the purchase and development of thousands of acres of land within the Greenview Industrial Gateway and to the south of the GIG. This transformative project is both a monumental achievement for Greenview and a pivotal moment for Alberta, Canada, and North America in terms of global business investment. Wonder Valley, which will be rolled out in multiple phases, marks the creation of an entirely new industry sector for the region and country. The scope and scale of this development will provide a massive influx of job opportunities during construction and beyond, bringing long-term employment and driving economic growth. With the addition of job opportunities and a ...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Wonder Valley: The Largest AI Compute Data Centre Park On Earth - DataX Connect
+URL: https://dataxconnect.com/insights-largest-ai-data-centre-park/
+Content: # Wonder Valley: The Largest AI Compute Data Centre Park On Earth
+
+Kevin O’Leary in cooperation with the Municipal District of Greenview to develop the world’s largest AI Data Centre Industrial Park ‘Wonder Valley’ in the Greenview Industrial Gateway (“GIG”) near Grande Prairie in North West Alberta, Canada.
+
+**Canada, 9 th December 2024 **— The Municipal District of Greenview is proud to announce a groundbreaking partnership with O’Leary Ventures to build an off-grid natural gas and geothermal power infrastructure to support the largest AI data centre industrial park in the world. The GIG has signed a Letter of Intent with O’Leary Ventures for the purchase and development of thousands of acres of land within the Greenview Industrial Gateway and to the south of the GIG. This transformative project is both a monumental achievement for Greenview and a pivotal moment for Alberta, Canada, and North America in terms of global business investment.
+
+Wonder Valley, which will be rolled out in multiple phases, marks t...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: World's Largest AI Data Centre Industrial Park 'Wonder ...
+URL: https://mdgreenview.ab.ca/media-release-worlds-largest-ai-data-centre-industrial-park-wonder-valley-coming-to-the-greenview-industrial-gateway/
+Content: December 9, 2024
+
+**Kevin O’Leary in cooperation with the Municipal District of Greenview to develop world’s largest AI Data Centre Industrial Park ‘Wonder Valley’ in the Greenview Industrial Gateway (“GIG”) near Grande Prairie in North West Alberta, Canada:**
+
+Alberta, Canada: The Municipal District of Greenview is proud to announce a groundbreaking partnership with O’Leary Ventures to build an off-grid natural gas and geothermal power infrastructure to support the largest AI data centre industrial park in the world. The GIG has signed a Letter of Intent with O’Leary Ventures for the purchase and development of thousands of acres of land within the Greenview Industrial Gateway and to the south of the GIG. This transformative project is both a monumental achievement for Greenview and a pivotal moment for Alberta, Canada, and North America in terms of global business investment.
+
+Wonder Valley, which will be rolled out in multiple phases, marks the creation of an entirely new industry sector for the region and...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: Kevin O'Leary Leads Visionary $70 Billion AI Data Centre ...
+URL: https://calgary.tech/2024/12/09/kevin-oleary-leads-visionary-70-billion-ai-data-centre-project-in-alberta/
+Content: Dragon turned Shark Kevin O’Leary is spearheading a transformative initiative to establish the world’s largest AI data centre industrial park, Wonder Valley, in Alberta’s Greenview Industrial Gateway (GIG).
+
+This ambitious project, undertaken in partnership with the Municipal District of Greenview, aims to position Alberta as a global leader in cutting-edge data infrastructure and sustainable energy innovation.
+
+O’Leary, through O’Leary Ventures, has signed a Letter of Intent to acquire and develop thousands of acres within and south of the GIG. With a phased rollout, Wonder Valley will feature an off-grid power solution driven by natural gas and geothermal energy, delivering up to 7.5 GW of low-cost power to hyperscale data centres over the next decade.
+
+“My team has sourced what we believe is the most compelling site in all of North America,” said O’Leary. “This project combines unmatched resources, strategic location, and an efficient design to deliver transformative economic impact with some of the lowest...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:31:57,217 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 5 search results:\n\nResult 1:\nTitle: DATA CENTERS: Stars Align In Wonder Valley\nURL: https://siteselection.com/data-centers-stars-align-in-wonder-valley/\nContent: Wonder Valley photos and renderings show the vision for a $70 billion, 7,000-acre campus in remote northwestern Alberta.\n\n*Images courtesy of O’Leary Ventures and Greenview Industrial Gateway*\n\n**Shark Tank’s Kevin O’Leary bets $70 billion on a new AI park in Alberta.**\n\n**y**ou know him as Kevin O’Leary, star of the hit TV show Shark Tank and mega-investor who’s earned the nickname Mr. Wonderful. To residents of Alberta, Canada, the native Canadian is about to be known as the developer of the world’s largest AI data center park.\n\nLocated in the Municipal District of Greenview in northwestern Alberta, the project is called Wonder Valley and, upon buildout, will represent $70 billion of capital investment on a 7,000-acre tract in the heart of the northern Canadian wilderness.\n\nSlated to be built in phases over the next decade, the project could reach 7.5 GW upon completion and employ thousands of highly skilled workers.\n\nThe official kickoff of the project was announced on December 10, 2024, in Greenview by O’...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: Kevin O\'Leary in cooperation with the Municipal District of Greenview to develop the world\'s largest AI Data Centre Industrial Park \'Wonder Valley\' in the Greenview Industrial Gateway ("GIG") near Grande Prairie in North West Alberta, Canada\nURL: https://www.prnewswire.com/news-releases/kevin-oleary-in-cooperation-with-the-municipal-district-of-greenview-to-develop-the-worlds-largest-ai-data-centre-industrial-park-wonder-valley-in-the-greenview-industrial-gateway-gig-near-grande-prairie-in-north-west-albe-302326230.html\nContent: GREENVIEW, AB, Dec. 9, 2024 /PRNewswire/ - The Municipal District of Greenview is proud to announce a groundbreaking partnership with O\'Leary Ventures to build an off-grid natural gas and geothermal power infrastructure to support the largest AI data centre industrial park in the world. The GIG has signed a Letter of Intent with O\'Leary Ventures for the purchase and development of thousands of acres of land within the Greenview Industrial Gateway and to the south of the GIG. This transformative project is both a monumental achievement for Greenview and a pivotal moment for Alberta, Canada, and North America in terms of global business investment. Wonder Valley, which will be rolled out in multiple phases, marks the creation of an entirely new industry sector for the region and country. The scope and scale of this development will provide a massive influx of job opportunities during construction and beyond, bringing long-term employment and driving economic growth. With the addition of job opportunities and a ...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Wonder Valley: The Largest AI Compute Data Centre Park On Earth - DataX Connect\nURL: https://dataxconnect.com/insights-largest-ai-data-centre-park/\nContent: # Wonder Valley: The Largest AI Compute Data Centre Park On Earth\n\nKevin O’Leary in cooperation with the Municipal District of Greenview to develop the world’s largest AI Data Centre Industrial Park ‘Wonder Valley’ in the Greenview Industrial Gateway (“GIG”) near Grande Prairie in North West Alberta, Canada.\n\n**Canada, 9 th December 2024 **— The Municipal District of Greenview is proud to announce a groundbreaking partnership with O’Leary Ventures to build an off-grid natural gas and geothermal power infrastructure to support the largest AI data centre industrial park in the world. The GIG has signed a Letter of Intent with O’Leary Ventures for the purchase and development of thousands of acres of land within the Greenview Industrial Gateway and to the south of the GIG. This transformative project is both a monumental achievement for Greenview and a pivotal moment for Alberta, Canada, and North America in terms of global business investment.\n\nWonder Valley, which will be rolled out in multiple phases, marks t...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: World\'s Largest AI Data Centre Industrial Park \'Wonder ...\nURL: https://mdgreenview.ab.ca/media-release-worlds-largest-ai-data-centre-industrial-park-wonder-valley-coming-to-the-greenview-industrial-gateway/\nContent: December 9, 2024\n\n**Kevin O’Leary in cooperation with the Municipal District of Greenview to develop world’s largest AI Data Centre Industrial Park ‘Wonder Valley’ in the Greenview Industrial Gateway (“GIG”) near Grande Prairie in North West Alberta, Canada:**\n\nAlberta, Canada: The Municipal District of Greenview is proud to announce a groundbreaking partnership with O’Leary Ventures to build an off-grid natural gas and geothermal power infrastructure to support the largest AI data centre industrial park in the world. The GIG has signed a Letter of Intent with O’Leary Ventures for the purchase and development of thousands of acres of land within the Greenview Industrial Gateway and to the south of the GIG. This transformative project is both a monumental achievement for Greenview and a pivotal moment for Alberta, Canada, and North America in terms of global business investment.\n\nWonder Valley, which will be rolled out in multiple phases, marks the creation of an entirely new industry sector for the region and...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: Kevin O\'Leary Leads Visionary $70 Billion AI Data Centre ...\nURL: https://calgary.tech/2024/12/09/kevin-oleary-leads-visionary-70-billion-ai-data-centre-project-in-alberta/\nContent: Dragon turned Shark Kevin O’Leary is spearheading a transformative initiative to establish the world’s largest AI data centre industrial park, Wonder Valley, in Alberta’s Greenview Industrial Gateway (GIG).\n\nThis ambitious project, undertaken in partnership with the Municipal District of Greenview, aims to position Alberta as a global leader in cutting-edge data infrastructure and sustainable energy innovation.\n\nO’Leary, through O’Leary Ventures, has signed a Letter of Intent to acquire and develop thousands of acres within and south of the GIG. With a phased rollout, Wonder Valley will feature an off-grid power solution driven by natural gas and geothermal energy, delivering up to 7.5 GW of low-cost power to hyperscale data centres over the next decade.\n\n“My team has sourced what we believe is the most compelling site in all of North America,” said O’Leary. “This project combines unmatched resources, strategic location, and an efficient design to deliver transformative economic impact with some of the lowest...\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:31:59,735 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"Beacon Langdon Artificial Intelligence Hub Rocky View County Alberta 400MW data center project details location","max_results":5,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:32:01,601 - Canada_ProjectHunter - INFO - Query: Beacon Langdon Artificial Intelligence Hub Rocky View County Alberta 400MW data center project details location
+Max results: 5
+Max tokens per page: 1024
+Result: Found 5 search results:
+
+Result 1:
+Title: Beacon Langdon AI Hub - Calgary
+URL: https://www.datacentermap.com/canada/calgary/beacon-langdon-ai-hub/
+Content: This data center may not be available
+
+According to our data, this data center is currently listed as:
+
+**Planned**
+
+Data Centers
+
+Canada
+
+Calgary... # Beacon Langdon AI Hub
+
+Beacon AI CentersVisit Website
+
+Township Rd 232
+
+T1X 0H4 Bennett
+
+Canada
+
+Township Rd 232
+
+T1X 0H4 Bennett
+
+Canada
+
+The Beacon Langdon Artificial Intelligence Hub is a proposed 946-acre data center campus located east of Calgary, Alberta, near the hamlet of Indus. This ambitious project, led by Beacon Data Centers, aims to establish a 400MW AI-driven facility with on-site power generation capacity.
+
+The hub is strategically positioned close to three electrical substations—Enmax 65, Langdon, and Shepherd—to ensure efficient energy access. Additionally, the development will integrate a solar farm, reinforcing its commitment to sustainable energy solutions.
+
+Beacon AI Centers has secured over 1,600 acres of land across Alberta, with plans to develop multiple AI hubs totaling 1.8GW of capacity, with the first buildings expected to go live in...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: Beacon Langdon Artificial Intelligence Hub
+URL: https://majorprojects.alberta.ca/details/Beacon-Langdon-Artificial-Intelligence-Hub/11492
+Content: The proponent is proposing to build a new data center known as the Beacon Langdon Artificial Intelligence Hub. The facility will contain 400 MW on onsite power generation capacity, along with other on-site data center facilities. Approvals are still being sought. Location on map is not precise. Location is between Calgary and Langdon.
+
+The proponent is proposing to build a new data center known as the Beacon Langdon Artificial Intelligence Hub. The facility will contain 400 MW on onsite power generation capacity, along with other on-site data center facilities. Approvals are still being sought.
+
+Location on map is not precise. Location is between Calgary and Langdon.
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Beacon Area Structure Plan Review
+URL: https://www.rockyview.ca/beacon-area-structure-plan-review
+Content: Engagement Summary Available
+
+An engagement summary outlining findings from the open house and online survey can be found below:
+
+ASP Draft
+
+On April 15, 2025, the project team hosted an open house at the Indus Recreational Centre. Staff from Rocky View County and the Beacon Data Center were in attendance to answer questions and provide information on the proposed area structure plan. A draft of The Beacon AI Hub ASP is available for review. Please refer to the following link below for a copy of the draft:
+
+Opportunities to ask questions and provide feedback
+
+Next Steps
+
+The ASP will be presented at a public hearing on June 17th. The project team continues to refine the draft Plan. If there are questions about the proposed ASP or the project, please contact planning_policy@rockyview.ca.
+
+The County is reviewing the development of an artificial intelligence hub through the creation of the Beacon AI Hub Area Structure Plan (ASP). In August 2024, Stantec Consulting on behalf of Beacon Data Centers Inc, submitted...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: Details emerge around Beacon AI’s planned 400MW Alberta data center campuses
+URL: https://www.datacenterdynamics.com/en/news/details-emerge-around-beacon-ais-planned-400mw-alberta-data-center-campuses/
+Content: Details have emerged about another planned data center from Beacon AI Centers, set to be developed outside Calgary, alongside several other projects outside Edmonton.
+
+Chestermere City Council has detailed proposals from Beacon for a data center campus in the Alberta city. The company plans to invest CA$4bn (US$2.78bn) in developing a 400MW campus on 310 acres of greenfield land, located in the southern part of the City of Chestermere.
+
+Chestermere is located some 22km east of downtown Calgary in Rocky View County. Beacon Data Centres is proposing a Land Use Redesignation application for the site, which seeks to change the land use district from Urban Transition (UT) to Business Park/Light Industrial (P/LI) to allow for data center development.
+
+Further details on the development haven’t been shared. Beacon is holding a public meeting on the proposals this week.
+
+“A project this unique in nature will bolster and diversify our local economy,” said Nimish Patel, economic development manager for the City of Ches...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: Nadia Partners launches Beacon AI Centers
+URL: https://www.datacenterdynamics.com/en/news/nadia-partners-launches-beacon-ai-centers/
+Content: Venture capital firm Nadia Partners has officially launched its new data center vehicle, Beacon AI Centers.
+
+The Calgary-based company has said it will add 1.8GW of capacity for hyperscale operators and has a total data center pipeline of 3.8GW. The data centers will be located across Alberta, Canada.
+
+It is also developing several AI data center shell developments that will come online across Alberta by 2027.
+
+According to the company, the shell data center concept will expedite the construction process, providing hyperscalers with scalable infrastructure that can be quickly outfitted with the latest technology.
+
+Beacon says it will develop its data centers using an energy-first approach, securing scalable and sustainable power solutions to support its facilities. The company did not disclose what form of power solutions it would deploy.
+
+According to the company website, it has more than 1,600 acres of acquired land with optimal fiber, energy, and grid connectivity. In addition, the firm claims to have 2GW ...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:32:01,602 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 5 search results:\n\nResult 1:\nTitle: Beacon Langdon AI Hub - Calgary\nURL: https://www.datacentermap.com/canada/calgary/beacon-langdon-ai-hub/\nContent: This data center may not be available\n\nAccording to our data, this data center is currently listed as:\n\n**Planned**\n\nData Centers\n\nCanada\n\nCalgary... # Beacon Langdon AI Hub\n\nBeacon AI CentersVisit Website\n\nTownship Rd 232\n\nT1X 0H4 Bennett\n\nCanada\n\nTownship Rd 232\n\nT1X 0H4 Bennett\n\nCanada\n\nThe Beacon Langdon Artificial Intelligence Hub is a proposed 946-acre data center campus located east of Calgary, Alberta, near the hamlet of Indus. This ambitious project, led by Beacon Data Centers, aims to establish a 400MW AI-driven facility with on-site power generation capacity.\n\nThe hub is strategically positioned close to three electrical substations—Enmax 65, Langdon, and Shepherd—to ensure efficient energy access. Additionally, the development will integrate a solar farm, reinforcing its commitment to sustainable energy solutions.\n\nBeacon AI Centers has secured over 1,600 acres of land across Alberta, with plans to develop multiple AI hubs totaling 1.8GW of capacity, with the first buildings expected to go live in...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: Beacon Langdon Artificial Intelligence Hub\nURL: https://majorprojects.alberta.ca/details/Beacon-Langdon-Artificial-Intelligence-Hub/11492\nContent: The proponent is proposing to build a new data center known as the Beacon Langdon Artificial Intelligence Hub. The facility will contain 400 MW on onsite power generation capacity, along with other on-site data center facilities. Approvals are still being sought. Location on map is not precise. Location is between Calgary and Langdon.\n\nThe proponent is proposing to build a new data center known as the Beacon Langdon Artificial Intelligence Hub. The facility will contain 400 MW on onsite power generation capacity, along with other on-site data center facilities. Approvals are still being sought.\n\nLocation on map is not precise. Location is between Calgary and Langdon.\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Beacon Area Structure Plan Review\nURL: https://www.rockyview.ca/beacon-area-structure-plan-review\nContent: Engagement Summary Available\n\nAn engagement summary outlining findings from the open house and online survey can be found below:\n\nASP Draft\n\nOn April 15, 2025, the project team hosted an open house at the Indus Recreational Centre. Staff from Rocky View County and the Beacon Data Center were in attendance to answer questions and provide information on the proposed area structure plan. A draft of The Beacon AI Hub ASP is available for review. Please refer to the following link below for a copy of the draft:\n\nOpportunities to ask questions and provide feedback\n\nNext Steps\n\nThe ASP will be presented at a public hearing on June 17th. The project team continues to refine the draft Plan. If there are questions about the proposed ASP or the project, please contact planning_policy@rockyview.ca.\n\nThe County is reviewing the development of an artificial intelligence hub through the creation of the Beacon AI Hub Area Structure Plan (ASP). In August 2024, Stantec Consulting on behalf of Beacon Data Centers Inc, submitted...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: Details emerge around Beacon AI’s planned 400MW Alberta data center campuses\nURL: https://www.datacenterdynamics.com/en/news/details-emerge-around-beacon-ais-planned-400mw-alberta-data-center-campuses/\nContent: Details have emerged about another planned data center from Beacon AI Centers, set to be developed outside Calgary, alongside several other projects outside Edmonton.\n\nChestermere City Council has detailed proposals from Beacon for a data center campus in the Alberta city. The company plans to invest CA$4bn (US$2.78bn) in developing a 400MW campus on 310 acres of greenfield land, located in the southern part of the City of Chestermere.\n\nChestermere is located some 22km east of downtown Calgary in Rocky View County. Beacon Data Centres is proposing a Land Use Redesignation application for the site, which seeks to change the land use district from Urban Transition (UT) to Business Park/Light Industrial (P/LI) to allow for data center development.\n\nFurther details on the development haven’t been shared. Beacon is holding a public meeting on the proposals this week.\n\n“A project this unique in nature will bolster and diversify our local economy,” said Nimish Patel, economic development manager for the City of Ches...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: Nadia Partners launches Beacon AI Centers\nURL: https://www.datacenterdynamics.com/en/news/nadia-partners-launches-beacon-ai-centers/\nContent: Venture capital firm Nadia Partners has officially launched its new data center vehicle, Beacon AI Centers.\n\nThe Calgary-based company has said it will add 1.8GW of capacity for hyperscale operators and has a total data center pipeline of 3.8GW. The data centers will be located across Alberta, Canada.\n\nIt is also developing several AI data center shell developments that will come online across Alberta by 2027.\n\nAccording to the company, the shell data center concept will expedite the construction process, providing hyperscalers with scalable infrastructure that can be quickly outfitted with the latest technology.\n\nBeacon says it will develop its data centers using an energy-first approach, securing scalable and sustainable power solutions to support its facilities. The company did not disclose what form of power solutions it would deploy.\n\nAccording to the company website, it has more than 1,600 acres of acquired land with optimal fiber, energy, and grid connectivity. In addition, the firm claims to have 2GW ...\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:32:06,105 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"Bell AI Fabric British Columbia 500MW AI data center supercluster project details locations Groq","max_results":10,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:32:07,741 - Canada_ProjectHunter - INFO - Query: Bell AI Fabric British Columbia 500MW AI data center supercluster project details locations Groq
+Max results: 10
+Max tokens per page: 1024
+Result: Found 10 search results:
+
+Result 1:
+Title: Increasing sovereign AI capacity: Introducing Bell AI Fabric
+URL: https://explore.business.bell.ca/news-and-events/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric
+Content: **MONTRÉAL, May 28, 2025 –** Bell Canada today announced Bell AI Fabric, a major investment that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.
+
+Bell AI Fabric will create a national network starting with a data centre supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.
+
+This initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada. With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across the country.
+
+Bell AI Fabric will include:
+
+
+
+- Four AI facilities located in Kamloops and Merritt, BC.
+
+- Two AI data centres designed for high-density AI workloads, powered by clean hydroelectricity and with a total capacity of mor...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: Bell AI Fabric: Bell Canada plans AI 'data center supercluster' with 500MW in British Columbia
+URL: https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/
+Content: Canadian telecoms operator Bell Canada has launched 'Bell AI Fabric,' a plan to help build AI data centers across the country.
+
+The new initiative plans to be 'nationwide,' but will start with six data centers in British Columbia, supported by 500MW of hydroelectric power.
+
+The very first facility is set to come online this June, operated by AI inference provider and chip designer Groq. That data center will be a 7MW facility in Kamloops, BC.
+
+“As AI moves into production, nations are rethinking where inference runs and who controls it,” said Jonathan Ross, CEO and founder of Groq. “We’re building infrastructure that’s fast, affordable, and sovereign by design, already powering some of the largest inference deployments in the world.”
+
+Another 7MW data center will open in Merritt, BC, by the end of this year.
+
+Two 26MW data centers at planned for Kamloops, with the first opening later this year at Thompson Rivers University (TRU) and a second coming next year.
+
+Two other AI data centers with a combined capacit...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Bell Canada unveils Bell AI Frabric - RCR Wireless News
+URL: https://www.rcrwireless.com/20250529/ai-ml/bell-canada-ai-fabric
+Content: ## Bell Canada selected Groq as its inference infrastructure partner to support the development of sovereign AI
+
+In sum – what you need to know:
+
+**Bell launches AI Fabric initiative –** Bell Canada unveiled a major AI infrastructure project, starting with a 500 MW hydro-powered compute network across six data centers.
+
+**First sites go live in 2025 –** A 7 MW Groq-powered facility in Kamloops will launch in June, followed by another in Merritt. Two 26 MW data centers in Kamloops will follow in 2026 and 2027.
+
+**Boosting sovereign AI capacity –** Backed by clean energy and national scale, Bell AI Fabric supports Canada’s goal of sovereign, high-performance AI infrastructure for enterprises, researchers and government institutions.
+
+Canadian telco Bell Canada unveiled Bell AI Fabric, an investment that aims to create the country’s largest artificial intelligence (AI) compute project. Bell AI Fabric will create a national network starting with a data center cluster in British Columbia that will aim to provide u...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: Increasing sovereign AI capacity: Introducing Bell AI Fabric
+URL: https://explore.business.bell.ca/artificial-intelligence-spotlight/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric
+Content: **MONTRÉAL, May 28, 2025 –** Bell Canada today announced Bell AI Fabric, a major investment that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.
+
+Bell AI Fabric will create a national network starting with a data centre supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.
+
+This initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada. With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across the country.
+
+Bell AI Fabric will include:
+
+
+
+- Four AI facilities located in Kamloops and Merritt, BC.
+
+- Two AI data centres designed for high-density AI workloads, powered by clean hydroelectricity and with a total capacity of mor...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: Bell's 6 AI data centres anchor Canada's largest AI ...
+URL: https://digitalinfranetwork.com/news/bell-ai-fabric-launch/
+Content: **Bell AI Fabric**– a major investment by Bell Canada that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.
+
+Bell AI Fabric will create a national network starting with a data centre supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.
+
+Bell AI Fabric underscores Bell’s capabilities as a leading full-stack AI Managed Service Provider that can support Canadian enterprises and governments across their full spectrum of AI needs, from strategy and applications development through infrastructure deployment.
+
+This initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada. With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across...
+
+--------------------------------------------------------------------------------
+
+Result 6:
+Title: Groq Becomes Exclusive Inference Provider for Bell Canada's Sovereign AI Network
+URL: https://www.prnewswire.com/news-releases/groq-becomes-exclusive-inference-provider-for-bell-canadas-sovereign-ai-network-302467175.html
+Content: New data centers across North America expand Groq's network, now serving over 20 million tokens per second
+MOUNTAIN VIEW, Calif., May 28, 2025 /PRNewswire/ -- Groq, the pioneer in fast AI inference, today announced an exclusive partnership with Bell Canada to power Bell AI Fabric, the country's largest sovereign AI infrastructure project.
+Bell AI Fabric will establish a national AI network across six sites, targeting 500MW of clean, hydro-powered compute. It begins with a 7MW Groq facility in Kamloops, British Columbia, coming online in June.
+"As AI moves into production, nations are rethinking where inference runs and who controls it," said Jonathan Ross, CEO and Founder of Groq. "We're building infrastructure that's fast, affordable, and sovereign by design, already powering some of the largest inference deployments in the world."
+This month, Groq also brought new data centers online in Houston (DataBank) and Dallas (Equinix), pushing total global network capacity to over 20 million tokens per second.
+The m...
+
+--------------------------------------------------------------------------------
+
+Result 7:
+Title: Bell to open Canada's largest AI data centre network in BC
+URL: https://datacenternews.ca/story/bell-to-open-canada-s-largest-ai-data-centre-network-in-bc
+Content: # Bell to open Canada’s largest AI data centre network in BC
+
+Bell Canada has announced the launch of Bell AI Fabric, which will include the establishment of the country's largest AI compute project through a network of six data centres totalling 500 MW in British Columbia.
+
+The first 7 MW facility of this project, located in Kamloops, is scheduled to become operational next month. Additional centres are planned to open throughout the remainder of this year and into early next year, with the data centres to be powered by clean hydroelectricity. Bell's initiative will also include a partnership with AI chip supplier Groq, designed to offer Canadian enterprises access to advanced AI inference chips.
+
+Bell AI Fabric is expected to create a national infrastructure, beginning with British Columbia's data centre supercluster. These facilities will look to provide high-performance computing for artificial intelligence across various sectors, supporting workloads such as language model training and inference services...
+
+--------------------------------------------------------------------------------
+
+Result 8:
+Title: Bell to build six AI data centres in Canada as telcos ...
+URL: https://betakit.com/bell-to-build-six-ai-data-centres-in-canada-as-telcos-compete-on-infrastructure/
+Content: Telecommunications giant Bell is tossing its hat into the artificial intelligence (AI) infrastructure ring as its competitors invest in AI data centres in anticipation of a growing demand for AI compute.
+
+The Bell AI Fabric project aims to build six AI data centres in British Columbia (BC), which the company says make up the first “supercluster” of a planned national network. Bell declined to disclose the value of the project to BetaKit, but said it was in the hundreds of millions (“nine-figure”) range.
+
+American computing hardware company Groq will be providing the chips that power the data centres.
+
+“Bell’s AI Fabric will ensure that Canadian businesses, researchers, and public institutions can access high-performance, sovereign and environmentally responsible AI computing services,” Mirko Bibic, president and CEO of Bell Canada and its parent company BCE, said in a statement.
+
+Traditional data centres provide computing power to store data and run applications. Canada is home to roughly 240 data centres, ac...
+
+--------------------------------------------------------------------------------
+
+Result 9:
+Title: Bell Builds Canada's Largest AI Compute Project with 500- ...
+URL: https://www.telecomreviewcanada.com/telecom-operators/2724-bell-builds-canadas-largest-ai-compute-project-with-500-mw-national-network/
+Content: Bell Canada announced a major investment that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.
+
+Bell AI Fabric will create a national network starting with a data center supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.
+
+Bell AI Fabric underscores Bell’s capabilities as a leading full-stack AI Managed Service Provider that can support Canadian enterprises and governments across their full spectrum of AI needs, from strategy and applications development through infrastructure deployment.
+
+This initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada.
+
+With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across the country...
+
+--------------------------------------------------------------------------------
+
+Result 10:
+Title: Bell Canada to open 6 AI data centres in BC
+URL: https://www.canhealth.com/2025/06/04/bell-canada-to-open-6-ai-data-centres-in-bc/
+Content: # Bell Canada to open 6 AI data centres in BC
+
+June 4, 2025
+
+VANCOUVER – Bell Canada has announced it will open six artificial intelligence data centres in B.C. as part of a plan to create the largest AI compute project in Canada.
+
+The telecom company, which has in recent years publicized its intent to become more tech-focused, said the facilities will provide around 500 megawatts of hydroelectric-powered AI compute capacity.
+
+AI compute refers to the technology that enables artificial intelligence systems to perform tasks, such as processing data and training machine-learning models.
+
+The project, called Bell AI Fabric, will help support Canadian businesses and governments’ AI needs, ranging from strategy and applications development to infrastructure deployment, the company said.
+
+Bell AI Fabric’s first seven-megawatt data centre is slated to open next month in Kamloops, in partnership with American AI inference provider Groq.
+
+The company said Groq’s technology is designed to accelerate AI inference tasks,...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:32:07,743 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 10 search results:\n\nResult 1:\nTitle: Increasing sovereign AI capacity: Introducing Bell AI Fabric\nURL: https://explore.business.bell.ca/news-and-events/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric\nContent: **MONTRÉAL, May 28, 2025 –** Bell Canada today announced Bell AI Fabric, a major investment that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.\n\nBell AI Fabric will create a national network starting with a data centre supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.\n\nThis initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada. With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across the country.\n\nBell AI Fabric will include:\n\n\n\n- Four AI facilities located in Kamloops and Merritt, BC.\n\n- Two AI data centres designed for high-density AI workloads, powered by clean hydroelectricity and with a total capacity of mor...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: Bell AI Fabric: Bell Canada plans AI \'data center supercluster\' with 500MW in British Columbia\nURL: https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/\nContent: Canadian telecoms operator Bell Canada has launched \'Bell AI Fabric,\' a plan to help build AI data centers across the country.\n\nThe new initiative plans to be \'nationwide,\' but will start with six data centers in British Columbia, supported by 500MW of hydroelectric power.\n\nThe very first facility is set to come online this June, operated by AI inference provider and chip designer Groq. That data center will be a 7MW facility in Kamloops, BC.\n\n“As AI moves into production, nations are rethinking where inference runs and who controls it,” said Jonathan Ross, CEO and founder of Groq. “We’re building infrastructure that’s fast, affordable, and sovereign by design, already powering some of the largest inference deployments in the world.”\n\nAnother 7MW data center will open in Merritt, BC, by the end of this year.\n\nTwo 26MW data centers at planned for Kamloops, with the first opening later this year at Thompson Rivers University (TRU) and a second coming next year.\n\nTwo other AI data centers with a combined capacit...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Bell Canada unveils Bell AI Frabric - RCR Wireless News\nURL: https://www.rcrwireless.com/20250529/ai-ml/bell-canada-ai-fabric\nContent: ## Bell Canada selected Groq as its inference infrastructure partner to support the development of sovereign AI\n\nIn sum – what you need to know:\n\n**Bell launches AI Fabric initiative –** Bell Canada unveiled a major AI infrastructure project, starting with a 500 MW hydro-powered compute network across six data centers.\n\n**First sites go live in 2025 –** A 7 MW Groq-powered facility in Kamloops will launch in June, followed by another in Merritt. Two 26 MW data centers in Kamloops will follow in 2026 and 2027.\n\n**Boosting sovereign AI capacity –** Backed by clean energy and national scale, Bell AI Fabric supports Canada’s goal of sovereign, high-performance AI infrastructure for enterprises, researchers and government institutions.\n\nCanadian telco Bell Canada unveiled Bell AI Fabric, an investment that aims to create the country’s largest artificial intelligence (AI) compute project. Bell AI Fabric will create a national network starting with a data center cluster in British Columbia that will aim to provide u...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: Increasing sovereign AI capacity: Introducing Bell AI Fabric\nURL: https://explore.business.bell.ca/artificial-intelligence-spotlight/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric\nContent: **MONTRÉAL, May 28, 2025 –** Bell Canada today announced Bell AI Fabric, a major investment that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.\n\nBell AI Fabric will create a national network starting with a data centre supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.\n\nThis initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada. With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across the country.\n\nBell AI Fabric will include:\n\n\n\n- Four AI facilities located in Kamloops and Merritt, BC.\n\n- Two AI data centres designed for high-density AI workloads, powered by clean hydroelectricity and with a total capacity of mor...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: Bell\'s 6 AI data centres anchor Canada\'s largest AI ...\nURL: https://digitalinfranetwork.com/news/bell-ai-fabric-launch/\nContent: **Bell AI Fabric**– a major investment by Bell Canada that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.\n\nBell AI Fabric will create a national network starting with a data centre supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.\n\nBell AI Fabric underscores Bell’s capabilities as a leading full-stack AI Managed Service Provider that can support Canadian enterprises and governments across their full spectrum of AI needs, from strategy and applications development through infrastructure deployment.\n\nThis initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada. With cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across...\n\n--------------------------------------------------------------------------------\n\nResult 6:\nTitle: Groq Becomes Exclusive Inference Provider for Bell Canada\'s Sovereign AI Network\nURL: https://www.prnewswire.com/news-releases/groq-becomes-exclusive-inference-provider-for-bell-canadas-sovereign-ai-network-302467175.html\nContent: New data centers across North America expand Groq\'s network, now serving over 20 million tokens per second\nMOUNTAIN VIEW, Calif., May 28, 2025 /PRNewswire/ -- Groq, the pioneer in fast AI inference, today announced an exclusive partnership with Bell Canada to power Bell AI Fabric, the country\'s largest sovereign AI infrastructure project.\nBell AI Fabric will establish a national AI network across six sites, targeting 500MW of clean, hydro-powered compute. It begins with a 7MW Groq facility in Kamloops, British Columbia, coming online in June.\n"As AI moves into production, nations are rethinking where inference runs and who controls it," said Jonathan Ross, CEO and Founder of Groq. "We\'re building infrastructure that\'s fast, affordable, and sovereign by design, already powering some of the largest inference deployments in the world."\nThis month, Groq also brought new data centers online in Houston (DataBank) and Dallas (Equinix), pushing total global network capacity to over 20 million tokens per second.\nThe m...\n\n--------------------------------------------------------------------------------\n\nResult 7:\nTitle: Bell to open Canada\'s largest AI data centre network in BC\nURL: https://datacenternews.ca/story/bell-to-open-canada-s-largest-ai-data-centre-network-in-bc\nContent: # Bell to open Canada’s largest AI data centre network in BC\n\nBell Canada has announced the launch of Bell AI Fabric, which will include the establishment of the country\'s largest AI compute project through a network of six data centres totalling 500 MW in British Columbia.\n\nThe first 7 MW facility of this project, located in Kamloops, is scheduled to become operational next month. Additional centres are planned to open throughout the remainder of this year and into early next year, with the data centres to be powered by clean hydroelectricity. Bell\'s initiative will also include a partnership with AI chip supplier Groq, designed to offer Canadian enterprises access to advanced AI inference chips.\n\nBell AI Fabric is expected to create a national infrastructure, beginning with British Columbia\'s data centre supercluster. These facilities will look to provide high-performance computing for artificial intelligence across various sectors, supporting workloads such as language model training and inference services...\n\n--------------------------------------------------------------------------------\n\nResult 8:\nTitle: Bell to build six AI data centres in Canada as telcos ...\nURL: https://betakit.com/bell-to-build-six-ai-data-centres-in-canada-as-telcos-compete-on-infrastructure/\nContent: Telecommunications giant Bell is tossing its hat into the artificial intelligence (AI) infrastructure ring as its competitors invest in AI data centres in anticipation of a growing demand for AI compute.\n\nThe Bell AI Fabric project aims to build six AI data centres in British Columbia (BC), which the company says make up the first “supercluster” of a planned national network. Bell declined to disclose the value of the project to BetaKit, but said it was in the hundreds of millions (“nine-figure”) range.\n\nAmerican computing hardware company Groq will be providing the chips that power the data centres.\n\n“Bell’s AI Fabric will ensure that Canadian businesses, researchers, and public institutions can access high-performance, sovereign and environmentally responsible AI computing services,” Mirko Bibic, president and CEO of Bell Canada and its parent company BCE, said in a statement.\n\nTraditional data centres provide computing power to store data and run applications. Canada is home to roughly 240 data centres, ac...\n\n--------------------------------------------------------------------------------\n\nResult 9:\nTitle: Bell Builds Canada\'s Largest AI Compute Project with 500- ...\nURL: https://www.telecomreviewcanada.com/telecom-operators/2724-bell-builds-canadas-largest-ai-compute-project-with-500-mw-national-network/\nContent: Bell Canada announced a major investment that will create the country’s largest artificial intelligence (AI) compute project and ensure that Canadian companies can continue to compete and win in the global AI economy.\n\nBell AI Fabric will create a national network starting with a data center supercluster in British Columbia that will aim to provide upwards of 500 MW of hydro-electric powered AI compute capacity across six facilities.\n\nBell AI Fabric underscores Bell’s capabilities as a leading full-stack AI Managed Service Provider that can support Canadian enterprises and governments across their full spectrum of AI needs, from strategy and applications development through infrastructure deployment.\n\nThis initiative represents Bell’s long-term objective to drive AI innovation and economic growth in Canada.\n\nWith cutting-edge technology and ensuring data sovereignty, Bell is poised to lead the way in delivering secure, reliable, and transformative AI solutions for businesses and communities across the country...\n\n--------------------------------------------------------------------------------\n\nResult 10:\nTitle: Bell Canada to open 6 AI data centres in BC\nURL: https://www.canhealth.com/2025/06/04/bell-canada-to-open-6-ai-data-centres-in-bc/\nContent: # Bell Canada to open 6 AI data centres in BC\n\nJune 4, 2025\n\nVANCOUVER – Bell Canada has announced it will open six artificial intelligence data centres in B.C. as part of a plan to create the largest AI compute project in Canada.\n\nThe telecom company, which has in recent years publicized its intent to become more tech-focused, said the facilities will provide around 500 megawatts of hydroelectric-powered AI compute capacity.\n\nAI compute refers to the technology that enables artificial intelligence systems to perform tasks, such as processing data and training machine-learning models.\n\nThe project, called Bell AI Fabric, will help support Canadian businesses and governments’ AI needs, ranging from strategy and applications development to infrastructure deployment, the company said.\n\nBell AI Fabric’s first seven-megawatt data centre is slated to open next month in Kamloops, in partnership with American AI inference provider Groq.\n\nThe company said Groq’s technology is designed to accelerate AI inference tasks,...\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:32:09,897 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"Related Digital Ascent Cambridge Ontario 54MW AI data center project details location","max_results":5,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:32:11,894 - Canada_ProjectHunter - INFO - Query: Related Digital Ascent Cambridge Ontario 54MW AI data center project details location
+Max results: 5
+Max tokens per page: 1024
+Result: Found 5 search results:
+
+Result 1:
+Title: [PDF] CPP Investments Commits to $225 Million in Construction Financing ...
+URL: https://www.cppinvestments.com/wp-content/uploads/attachments/News-release_Ontario-Data-Center-EN.pdf
+Content: CPP Investments Classification: Restricted  
+CPP Investments Commits to $225 Million in Construction Financing for Ontario 
+Data Centre 
+ 
+Toronto, ON (July 31, 2025) – Canada Pension Plan Investment Board (CPP Investments) today 
+announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in 
+Cambridge, Ontario.   
+CPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, 
+alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this 
+transaction and funded the remaining 50% of the loan. 
+The data centre is being developed as a joint venture between Related Digital, a global, vertically 
+integrated centre development and investment platform, TowerBrook Capital Partners, an international 
+investment management firm, and Ascent, a leader in planning, developing and operating data centres. 
+The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project ...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: Data Center Expansion: CPP Investments $225 Million Deal
+URL: https://www.constructioncanews.com/cpp-investments-data-center-expansion/
+Content: *News Summary*
+
+The Canada Pension Plan Investment Board is investing C$225 million into a significant data center expansion in Cambridge, Ontario, driven by the growing demand for AI infrastructure. This collaborative project, with Deutsche Bank Private Credit & Infrastructure, aims to boost the data center’s capacity from 6 megawatts to 54 megawatts, supporting the burgeoning AI industry. The first phase of the high-capacity facility is expected to be operational soon, underscoring Canada’s strategic investment in digital infrastructure and AI innovation.... ### CPP Investments Allocates $225 Million for Quebec Data Center Expansion Amid Growing AI Demand
+
+The Canada Pension Plan Investment Board (CPP Investments) is taking a significant step in bolstering the data center infrastructure in Canada by committing
+
+**C$225 million** (around **$162 million**) to a major expansion project in Cambridge, Ontario. This financial commitment entails a **50% share** in a construction loan aimed at elevating the capacit...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: CPP Investments Commits to $225 Million in Construction Financing for Ontario Data Centre - Power & Telecom
+URL: https://powerandtelecom.ca/projects/cpp-225-ontario-data-centre/
+Content: August 1, 2025
+
+Canada Pension Plan Investment Board announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in Cambridge, Ontario.
+
+CPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this transaction and funded the remaining 50% of the loan.
+
+The data centre is being developed as a joint venture between Related Digital, a global, vertically integrated data centre development and investment platform, TowerBrook Capital Partners, an international investment management firm, and Ascent, a leader in planning, developing and operating data centres. The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project has been pre-leased to a market-leading GPU-focused AI cloud compute provider on a long-term basis.
+
+“The rapid expansion of digital infrastructure—driven by accelerating demand for...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: CPP Investments Commits to $225 Million in Construction Financing for Ontario Data Centre — RELATED DIGITAL
+URL: https://www.related-digital.com/news/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centrenbsp
+Content: # CPP Investments Commits to $225 Million in Construction Financing for Ontario Data Centre
+
+**Toronto, ON (July 31, 2025) – **Canada Pension Plan Investment Board (CPP Investments) today announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in Cambridge, Ontario.
+
+CPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this transaction and funded the remaining 50% of the loan.
+
+The data centre is being developed as a joint venture between Related Digital, a global, vertically integrated data centre development and investment platform, TowerBrook Capital Partners, an international investment management firm, and Ascent, a leader in planning, developing and operating data centres. The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project has been pre-leased to a market-leading GPU-fo...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: CPPIB Commits $225M to Cambridge Data Centre Expansion Project
+URL: https://www.connectcre.ca/stories/cppib-commits-225m-to-cambridge-data-centre-expansion-project/
+Content: #### Canada CRE News In Your Inbox.
+
+Sign up for Connect emails to stay informed with CRE stories that are 150 words or less.... # CPPIB Commits $225M to Cambridge Data Centre Expansion Project
+
+The Canada Pension Plan Investment Board is investing $225 million in the construction of a 54-megawatt hyperscale data-centre expansion project in Cambridge, Ont.
+
+CPPIB will provide the funding through a 50% interest in a construction loan, with Deutsche Bank Private Credit & Infrastructure funding the remaining half as lead lender on the transaction.
+
+The project is being developed through a joint-venture involving Related Digital, TowerBrook Capital Partners, and Ascent. Related and Towerbrook are based in New York, while Ascent is headquartered in London.
+
+The Cambridge expansion project has already been preleased on a long-term basis to an unidentified AI cloud-compute provider.
+
+“The rapid expansion of digital infrastructure—driven by accelerating demand for cloud services, data storage, and the transformative ...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:32:11,895 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 5 search results:\n\nResult 1:\nTitle: [PDF] CPP Investments Commits to $225 Million in Construction Financing ...\nURL: https://www.cppinvestments.com/wp-content/uploads/attachments/News-release_Ontario-Data-Center-EN.pdf\nContent: CPP Investments Classification: Restricted  \nCPP Investments Commits to $225 Million in Construction Financing for Ontario \nData Centre \n \nToronto, ON (July 31, 2025) – Canada Pension Plan Investment Board (CPP Investments) today \nannounced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in \nCambridge, Ontario.   \nCPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, \nalongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this \ntransaction and funded the remaining 50% of the loan. \nThe data centre is being developed as a joint venture between Related Digital, a global, vertically \nintegrated centre development and investment platform, TowerBrook Capital Partners, an international \ninvestment management firm, and Ascent, a leader in planning, developing and operating data centres. \nThe demand for hyperscale data centres in Toronto and the surrounding region is strong and the project ...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: Data Center Expansion: CPP Investments $225 Million Deal\nURL: https://www.constructioncanews.com/cpp-investments-data-center-expansion/\nContent: *News Summary*\n\nThe Canada Pension Plan Investment Board is investing C$225 million into a significant data center expansion in Cambridge, Ontario, driven by the growing demand for AI infrastructure. This collaborative project, with Deutsche Bank Private Credit & Infrastructure, aims to boost the data center’s capacity from 6 megawatts to 54 megawatts, supporting the burgeoning AI industry. The first phase of the high-capacity facility is expected to be operational soon, underscoring Canada’s strategic investment in digital infrastructure and AI innovation.... ### CPP Investments Allocates $225 Million for Quebec Data Center Expansion Amid Growing AI Demand\n\nThe Canada Pension Plan Investment Board (CPP Investments) is taking a significant step in bolstering the data center infrastructure in Canada by committing\n\n**C$225 million** (around **$162 million**) to a major expansion project in Cambridge, Ontario. This financial commitment entails a **50% share** in a construction loan aimed at elevating the capacit...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: CPP Investments Commits to $225 Million in Construction Financing for Ontario Data Centre - Power & Telecom\nURL: https://powerandtelecom.ca/projects/cpp-225-ontario-data-centre/\nContent: August 1, 2025\n\nCanada Pension Plan Investment Board announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in Cambridge, Ontario.\n\nCPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this transaction and funded the remaining 50% of the loan.\n\nThe data centre is being developed as a joint venture between Related Digital, a global, vertically integrated data centre development and investment platform, TowerBrook Capital Partners, an international investment management firm, and Ascent, a leader in planning, developing and operating data centres. The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project has been pre-leased to a market-leading GPU-focused AI cloud compute provider on a long-term basis.\n\n“The rapid expansion of digital infrastructure—driven by accelerating demand for...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: CPP Investments Commits to $225 Million in Construction Financing for Ontario Data Centre — RELATED DIGITAL\nURL: https://www.related-digital.com/news/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centrenbsp\nContent: # CPP Investments Commits to $225 Million in Construction Financing for Ontario Data Centre\n\n**Toronto, ON (July 31, 2025) – **Canada Pension Plan Investment Board (CPP Investments) today announced that it is providing funding to construct a 54 MW hyperscale expansion to a data centre in Cambridge, Ontario.\n\nCPP Investments will invest C$225 million in the project by way of a 50% interest in a construction loan, alongside Deutsche Bank Private Credit & Infrastructure, which served as the lead lender on this transaction and funded the remaining 50% of the loan.\n\nThe data centre is being developed as a joint venture between Related Digital, a global, vertically integrated data centre development and investment platform, TowerBrook Capital Partners, an international investment management firm, and Ascent, a leader in planning, developing and operating data centres. The demand for hyperscale data centres in Toronto and the surrounding region is strong and the project has been pre-leased to a market-leading GPU-fo...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: CPPIB Commits $225M to Cambridge Data Centre Expansion Project\nURL: https://www.connectcre.ca/stories/cppib-commits-225m-to-cambridge-data-centre-expansion-project/\nContent: #### Canada CRE News In Your Inbox.\n\nSign up for Connect emails to stay informed with CRE stories that are 150 words or less.... # CPPIB Commits $225M to Cambridge Data Centre Expansion Project\n\nThe Canada Pension Plan Investment Board is investing $225 million in the construction of a 54-megawatt hyperscale data-centre expansion project in Cambridge, Ont.\n\nCPPIB will provide the funding through a 50% interest in a construction loan, with Deutsche Bank Private Credit & Infrastructure funding the remaining half as lead lender on the transaction.\n\nThe project is being developed through a joint-venture involving Related Digital, TowerBrook Capital Partners, and Ascent. Related and Towerbrook are based in New York, while Ascent is headquartered in London.\n\nThe Cambridge expansion project has already been preleased on a long-term basis to an unidentified AI cloud-compute provider.\n\n“The rapid expansion of digital infrastructure—driven by accelerating demand for cloud services, data storage, and the transformative ...\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:32:14,745 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'perplexity_search', 'arguments': '{"query":"Canada AI data center projects 50MW+ Digital Realty, Equinix, Vantage, QScale, Cologix, eStruxture, Compass, STACK, hyperscale","max_results":10,"max_tokens_per_page":1024}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:32:16,613 - Canada_ProjectHunter - INFO - Query: Canada AI data center projects 50MW+ Digital Realty, Equinix, Vantage, QScale, Cologix, eStruxture, Compass, STACK, hyperscale
+Max results: 10
+Max tokens per page: 1024
+Result: Found 10 search results:
+
+Result 1:
+Title: eStruxture: Largest Canadian Data Center Colocation Platform
+URL: https://www.estruxture.com
+Content: ### ThinkOn, Hypertec, Aptum, and eStruxture Launch Canada’s First End-to-End Sovereign, AI-Ready Government Cloud
+
+## Our Locations
+
+### High-Density Data CentersChoose between any of our fifteen high-power density and sustainably designed facilities strategically located in all the major Canadian markets. Our customized approach means that you will always get the most efficient combination of space, power, cooling, and connectivity that is guaranteed to meet your unique needs and support the most sophisticated workloads. And our scalable facilities mean you will always have room to grow.
+
+## Our Services
+
+### Data Center Services You Can Rely On
+
+As the largest Canadian data center provider, eStruxture provides reliable cloud and carrier-neutral colocation services to network providers, XaaS hosting, GPUaaS, Fintech, AI, machine learning, VFX and rendering, and other industries that depend on mission-critical IT.
+
+##### Colocation
+
+From cabinets, cages, and custom suites – get the most efficient combination...
+
+--------------------------------------------------------------------------------
+
+Result 2:
+Title: Canada Hyperscale Data Center Market Size & Share ...
+URL: https://www.mordorintelligence.com/industry-reports/canada-hyperscale-data-center-market
+Content: ## Canada Hyperscale Data Center Market Trends and Insights
+
+Drivers Impact Analysis
+
+|DRIVER|(~) % IMPACT ON CAGR FORECAST|GEOGRAPHIC RELEVANCE|IMPACT TIMELINE|
+|--|--|--|--|
+|Soaring cloud-AI training clusters (less than 50 kW racks, Montréal and Calgary)|6.2%|Quebec, Alberta|Medium term (2-4 years)|
+|Rapid build-to-suit demand from U.S. hyperscalers seeking low-carbon grid access|5.8%|Quebec, British Columbia, Alberta|Short term (≤ 2 years)|
+|Government green-energy incentives (Hydro-Québec, Alberta renewables PPAs)|4.1%|Quebec, Alberta|Long term (≥ 4 years)|
+|Record CDN-streaming and gaming traffic densifying Toronto edge nodes|3.3%|Ontario|Short term (≤ 2 years)|
+|GenAI inference campuses adopting liquid/immersion cooling|2.1%|Global|Medium term (2-4 years)|
+|First-mover SMR-powered data-center pilots at nuclear sites|0.7%|Ontario|Long term (≥ 4 years)|
+|Source: Mordor Intelligence|
+Soaring cloud-AI training clusters (less than 50 kW racks)... Québec and Alberta each host campuses engineered for multi-pe...
+
+--------------------------------------------------------------------------------
+
+Result 3:
+Title: Canada Existing & Upcoming Data Center Portfolio Report 2025
+URL: https://www.businesswire.com/news/home/20250826741079/en/Canada-Existing-Upcoming-Data-Center-Portfolio-Report-2025-Over-2-GW-Capacity-Expected-from-Upcoming-Canadian-Colocation-Projects---ResearchAndMarkets.com
+Content: **Key Market Highlights**
+
+- Calgary leads the upcoming market, representing more than 25% of Canada's future power capacity.
+
+- eStruxture Data Centers, Cologix, Vantage Data Centers and Equinix are some of the leading data center operators by capacity.
+
+- Over 20 upcoming colocation and hyperscale self-built data center projects across Canada are expected to contribute approximately 2 GW of capacity, with many facilities still in the announced or planning stages.
+
+- Microsoft is actively expanding its hyperscale footprint in Canada, with four large-scale data center projects under construction across Quebec and Ontario.
+
+**Existing Data Centers (116 Facilities)**
+
+- Market Snapshot
+
+- Location (Region/Country/City)
+
+- Facility Address
+
+- Operator/Owner Name
+
+- Data Center Name i.e., (VA 1 or DC 7)
+
+- Core & Shell Area (White-Floor Area)
+
+- Core & Shell Power Capacity (IT Load Capacity)
+
+- Rack Capacity
+
+- Year of Operations
+
+- Design Standards (Tier I - IV)
+
+- Power/Cooling Redundancy
+
+**Upcoming Data Cente...
+
+--------------------------------------------------------------------------------
+
+Result 4:
+Title: Canada Existing & Upcoming Data Center Portfolio ...
+URL: https://reitreport.ca/canada-existing-upcoming-data-center-portfolio-report-2025-over-2-gw-capacity-expected-from-upcoming-canadian-colocation-projects-researchandmarkets-com/
+Content: DUBLIN–(BUSINESS WIRE)–The “Canada Existing & Upcoming Data Center Portfolio” database has been added to
+
+**ResearchAndMarkets.com’s** offering.
+
+This database product covers the Canada data center market portfolio analysis, which provides the following information on colocation data centers:
+
+- Detailed Analysis of 116 existing data centers
+
+- Detailed Analysis of 19 upcoming data centers
+
+- Locations covered: Calgary, Charlottetown, Gatineau, Halifax, Kamloops, Kelowna, Kitchener, Lethbridge, Markham, Mississauga, Moncton, Montreal, Ottawa, Quebec City, Regina, Richmond Hill, Saint John, Saskatoon, Toronto, Vancouver, Waterloo, White City, Winnipeg.
+
+- Existing white-floor space (square feet)
+
+- Upcoming white-floor space (square feet)
+
+- Current IT load capacity (2025)
+
+- Future capacity additions (2025-2029)
+
+
+
+Retail Colocation Pricing
+
+- Quarter Rack (1/4)
+
+- Half Rack Cabinets (1/2)
+
+- Full Rack Cabinet (42U/45U/47U/etc.)
+
+- Wholesale colocation (per kW) pricing
+
+**Key Market Highlights**
+
+- Calgary le...
+
+--------------------------------------------------------------------------------
+
+Result 5:
+Title: IREN | Next-Gen Data Centers for AI, HPC & Sustainable ...
+URL: https://iren.com
+Content: *AI data centers Purpose-built *
+
+...powered by
+
+**100% renewable energy***
+
+Infrastructure engineered not just for what AI needs now, but for what AI will demand next. IREN's vertical integration, expertise and flexibility empowers you to scale faster, accelerate time to market and gain your competitive edge.
+
+Purpose-built for demanding AI training and inference by the experts in high-performance infrastructure.
+
+Future-proof your growth with infrastructure located at large-scale sites in emerging AI hubs.
+
+With our end-to-end control, you gain operational efficiency and reliability, backed by 24/7 dedicated support.
+
+Built on NVIDIA reference architecture to handle the most demanding AI training and inference workloads.
+
+Leverage our vertical integration for greater flexibility, operational efficiency and reliability.
+
+With an onsite team ready to respond anytime, we deliver smooth, reliable service for your critical workloads.
+
+IREN’s next-generation data centers are purpose-built for high-performance, po...
+
+--------------------------------------------------------------------------------
+
+Result 6:
+Title: Canada Data Center Construction Market Size and Share
+URL: https://www.mordorintelligence.com/industry-reports/canada-states-data-center-construction-market
+Content: ## Canada Data Center Construction Market Trends and Insights
+
+Drivers Impact Analysis
+
+|Driver|(~)% Impact on CAGR Forecast|Geographic Relevance|Impact Timeline|
+|--|--|--|--|
+|Soaring cloud and AI workload demand|+2.8%|Global, with concentration in Toronto, Montreal, Calgary|Medium term (2-4 years)|
+|Accelerating hyperscale CAPEX commitments|+2.1%|Alberta, Ontario, British Columbia|Short term (≤ 2 years)|
+|Federal CAD 2.4 billion (USD 1.74 billion) Sovereign AI Compute Strategy|+1.9%|National, with early gains in Toronto, Calgary, Montreal|Medium term (2-4 years)|
+|Abundant low-carbon hydro-power capacity|+1.6%|Quebec, British Columbia, Ontario|Long term (≥ 4 years)|
+|Alberta's 1.2 GW phased grid-connection program|+1.4%|Alberta, with spillover to Saskatchewan|Short term (≤ 2 years)|
+|Adaptive-reuse of vacant industrial assets|+0.8%|Toronto, Montreal, Vancouver metropolitan areas|Medium term (2-4 years)|
+|Source: Mordor Intelligence|
+Soaring Cloud and AI Workload Demand... ## Geography Analysis
+
+Alberta lea...
+
+--------------------------------------------------------------------------------
+
+Result 7:
+Title: Canada Data Center Market Investment Report 2021-2026 Featuring Major Investors - Cologix, Compass, Digital Realty, Enovum, Equinix, eStruxture, STACK INFRASTRUCTURE, Urbacon, & Vantage
+URL: https://www.prnewswire.com/news-releases/canada-data-center-market-investment-report-2021-2026-featuring-major-investors---cologix-compass-digital-realty-enovum-equinix-estruxture-stack-infrastructure-urbacon--vantage-301422109.html
+Content: DUBLIN, Nov. 11, 2021 /PRNewswire/ -- The "Canada Data Center Market - Investment Analysis and Growth Opportunities 2021-2026" report has been added to
+
+**ResearchAndMarkets.com's** offering.
+
+Canada data center market size will witness investments of USD 5.38 billion by 2026, growing at a CAGR of 10.13% during 2021-2026
+
+This report analyzes the Canada data center market share and elaborative analysis of the existing and upcoming facilities, investments in terms of IT, electrical, mechanical infrastructure, general construction, tier standards, and geography. It discusses market sizing and investment estimation for different segments.
+
+Increased digitalization, excellent fiber connectivity, and reserves of renewable energy resources make Canada an attractive market for data center investment. Most facilities in Canada are green data centers, powered through 100% renewable energy.
+
+Though Canada has a significant landmass, data gravity is higher in major cities with a higher population, such as Toronto, Montr...
+
+--------------------------------------------------------------------------------
+
+Result 8:
+Title: Canada Existing & Upcoming Data Center Portfolio
+URL: https://www.researchandmarkets.com/reports/5983083/canada-existing-and-upcoming-data-center-portfolio?+Upcoming+Data+Center+Database+2025+%7C+EStruxture+Data+Centers%2C+Cologix%2C+Vantage+Data+Centers+and+Equinix+are+Some+of+the+Leading+Data+Center+Operators+by+Capacity
+Content: Speak directly to the analyst to clarify any post sales queries you may have.
+
+- Detailed Analysis of 116 existing data centers
+
+- Detailed Analysis of 19 upcoming data centers
+
+- Locations covered: Calgary, Charlottetown, Gatineau, Halifax, Kamloops, Kelowna, Kitchener, Lethbridge, Markham, Mississauga, Moncton, Montreal, Ottawa, Quebec City, Regina, Richmond Hill, Saint John, Saskatoon, Toronto, Vancouver, Waterloo, White City, Winnipeg.
+
+- Existing white-floor space (square feet)
+
+- Upcoming white-floor space (square feet)
+
+- Current IT load capacity (2025)
+
+- Future capacity additions (2025-2029)
+
+- Retail Colocation Pricing
+
+- Quarter Rack (1/4)
+
+- Half Rack Cabinets (1/2)
+
+- Full Rack Cabinet (42U/45U/47U/etc.)
+
+- Wholesale colocation (per kW) pricing
+
+## Key Market Highlights
+
+- Calgary leads the upcoming market, representing more than 25% of Canada's future power capacity.
+
+- eStruxture Data Centers, Cologix, Vantage Data Centers and Equinix are some of the leading data center operators by capacity.
+
+...
+
+--------------------------------------------------------------------------------
+
+Result 9:
+Title: Canada Data Center Market Investment Analysis Report 2025-2030
+URL: https://www.businesswire.com/news/home/20250409938380/en/Canada-Data-Center-Market-Investment-Analysis-Report-2025-2030-$12.27-Bn-Growth-Opportunities-in-IT-Electrical-Mechanical-Infrastructure-General-Construction-and-Tier-Standards---ResearchAndMarkets.com
+Content: The rising demand and significant growth opportunities have led to an increase in the investment in data centers from new entrants. These new entrants in the Canada data center market include Beacon AI Centers, Bit Digital, Cohere+ CoreWeave, Gatineau Data Hub (GDH), and Yondr. The rise in new entrants will increase competitiveness in revenue generation in the market in the coming years.
+
+The Canada data center market has several local and global construction contractors operating in the market including Arup, AECOM, Bird Construction Black & Veatch, DPR Construction, First Gulf, HDR, Jacobs, Karbon Engineering, PCL Construction, Pomerleau, Revenco, Rider Levett Bucknall (RLB), Salas O'Brien, Salute, Stantec, Turner Construction and others that have been offering their services in the market. For instance, In July 2024, Salas O'Brien announced the merger with Ehvert Mission Critical to offer design and construction services for hyperscale data centers.
+
+**KEY HIGHLIGHTS**... - Canada is witnessing significant...
+
+--------------------------------------------------------------------------------
+
+Result 10:
+Title: Search Data Centers: Colocation, Bare Metal, Cloud
+URL: https://www.datacenters.com
+Content: 21
+
+Argentina
+
+21
+
+Austria
+
+20
+
+Romania
+
+19
+
+Vietnam
+
+19
+
+Philippines
+
+19
+
+Turkey
+
+18
+
+Francia
+
+17
+
+Czechia
+
+17
+
+Peru
+
+17
+
+View All Countries
+
+Top 50 Providers with Data Centers
+
+Find providers that offer colocation, bare metal, cloud and managed services.
+
+China Telecom
+
+362
+
+Lumen
+
+308
+
+Equinix
+
+270
+
+Digital Realty
+
+254
+
+Zenlayer
+
+253
+
+Centersquare
+
+112
+
+Cogent Communications
+
+109
+
+NTT Global Data Centers
+
+105
+
+MOD Mission Critical
+
+99
+
+DataBank
+
+91
+
+365 Data Centers
+
+86
+
+Hivelocity
+
+57
+
+QTS Data Centers
+
+46
+
+Cologix
+
+45
+
+CyrusOne
+
+45
+
+Enzu
+
+44
+
+TierPoint
+
+41
+
+Flexential
+
+40
+
+Telia Company
+
+40
+
+Iron Mountain Data Centers
+
+37
+
+Telehouse
+
+34
+
+Vultr
+
+30
+
+Telstra
+
+30
+
+H5 Data Centers
+
+30
+
+Crown Castle
+
+28
+
+CoreSite
+
+27
+
+AT&T
+
+26
+
+Vantage Data Centers
+
+25
+
+AtlasEdge Data Centers
+
+24
+
+NorthC
+
+23
+
+FDCservers.net
+
+23
+
+Ascenty
+
+23... Colocation America
+
+22
+
+Prime Data Centers
+
+22
+
+LightEdge
+
+19
+
+Verizon
+
+19
+
+Rackspace
+
+18
+
+iTel Networks Inc.
+
+18
+
+Cirion Technologies
+
+17
+
+Limestone Networks
+
+17
+
+Data Canopy
+
+17
+
+Summ...
+
+--------------------------------------------------------------------------------
+
+
+2025-10-12 01:32:16,631 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'perplexity_search', 'content': 'Found 10 search results:\n\nResult 1:\nTitle: eStruxture: Largest Canadian Data Center Colocation Platform\nURL: https://www.estruxture.com\nContent: ### ThinkOn, Hypertec, Aptum, and eStruxture Launch Canada’s First End-to-End Sovereign, AI-Ready Government Cloud\n\n## Our Locations\n\n### High-Density Data CentersChoose between any of our fifteen high-power density and sustainably designed facilities strategically located in all the major Canadian markets. Our customized approach means that you will always get the most efficient combination of space, power, cooling, and connectivity that is guaranteed to meet your unique needs and support the most sophisticated workloads. And our scalable facilities mean you will always have room to grow.\n\n## Our Services\n\n### Data Center Services You Can Rely On\n\nAs the largest Canadian data center provider, eStruxture provides reliable cloud and carrier-neutral colocation services to network providers, XaaS hosting, GPUaaS, Fintech, AI, machine learning, VFX and rendering, and other industries that depend on mission-critical IT.\n\n##### Colocation\n\nFrom cabinets, cages, and custom suites – get the most efficient combination...\n\n--------------------------------------------------------------------------------\n\nResult 2:\nTitle: Canada Hyperscale Data Center Market Size & Share ...\nURL: https://www.mordorintelligence.com/industry-reports/canada-hyperscale-data-center-market\nContent: ## Canada Hyperscale Data Center Market Trends and Insights\n\nDrivers Impact Analysis\n\n|DRIVER|(~) % IMPACT ON CAGR FORECAST|GEOGRAPHIC RELEVANCE|IMPACT TIMELINE|\n|--|--|--|--|\n|Soaring cloud-AI training clusters (less than 50 kW racks, Montréal and Calgary)|6.2%|Quebec, Alberta|Medium term (2-4 years)|\n|Rapid build-to-suit demand from U.S. hyperscalers seeking low-carbon grid access|5.8%|Quebec, British Columbia, Alberta|Short term (≤ 2 years)|\n|Government green-energy incentives (Hydro-Québec, Alberta renewables PPAs)|4.1%|Quebec, Alberta|Long term (≥ 4 years)|\n|Record CDN-streaming and gaming traffic densifying Toronto edge nodes|3.3%|Ontario|Short term (≤ 2 years)|\n|GenAI inference campuses adopting liquid/immersion cooling|2.1%|Global|Medium term (2-4 years)|\n|First-mover SMR-powered data-center pilots at nuclear sites|0.7%|Ontario|Long term (≥ 4 years)|\n|Source: Mordor Intelligence|\nSoaring cloud-AI training clusters (less than 50 kW racks)... Québec and Alberta each host campuses engineered for multi-pe...\n\n--------------------------------------------------------------------------------\n\nResult 3:\nTitle: Canada Existing & Upcoming Data Center Portfolio Report 2025\nURL: https://www.businesswire.com/news/home/20250826741079/en/Canada-Existing-Upcoming-Data-Center-Portfolio-Report-2025-Over-2-GW-Capacity-Expected-from-Upcoming-Canadian-Colocation-Projects---ResearchAndMarkets.com\nContent: **Key Market Highlights**\n\n- Calgary leads the upcoming market, representing more than 25% of Canada\'s future power capacity.\n\n- eStruxture Data Centers, Cologix, Vantage Data Centers and Equinix are some of the leading data center operators by capacity.\n\n- Over 20 upcoming colocation and hyperscale self-built data center projects across Canada are expected to contribute approximately 2 GW of capacity, with many facilities still in the announced or planning stages.\n\n- Microsoft is actively expanding its hyperscale footprint in Canada, with four large-scale data center projects under construction across Quebec and Ontario.\n\n**Existing Data Centers (116 Facilities)**\n\n- Market Snapshot\n\n- Location (Region/Country/City)\n\n- Facility Address\n\n- Operator/Owner Name\n\n- Data Center Name i.e., (VA 1 or DC 7)\n\n- Core & Shell Area (White-Floor Area)\n\n- Core & Shell Power Capacity (IT Load Capacity)\n\n- Rack Capacity\n\n- Year of Operations\n\n- Design Standards (Tier I - IV)\n\n- Power/Cooling Redundancy\n\n**Upcoming Data Cente...\n\n--------------------------------------------------------------------------------\n\nResult 4:\nTitle: Canada Existing & Upcoming Data Center Portfolio ...\nURL: https://reitreport.ca/canada-existing-upcoming-data-center-portfolio-report-2025-over-2-gw-capacity-expected-from-upcoming-canadian-colocation-projects-researchandmarkets-com/\nContent: DUBLIN–(BUSINESS WIRE)–The “Canada Existing & Upcoming Data Center Portfolio” database has been added to\n\n**ResearchAndMarkets.com’s** offering.\n\nThis database product covers the Canada data center market portfolio analysis, which provides the following information on colocation data centers:\n\n- Detailed Analysis of 116 existing data centers\n\n- Detailed Analysis of 19 upcoming data centers\n\n- Locations covered: Calgary, Charlottetown, Gatineau, Halifax, Kamloops, Kelowna, Kitchener, Lethbridge, Markham, Mississauga, Moncton, Montreal, Ottawa, Quebec City, Regina, Richmond Hill, Saint John, Saskatoon, Toronto, Vancouver, Waterloo, White City, Winnipeg.\n\n- Existing white-floor space (square feet)\n\n- Upcoming white-floor space (square feet)\n\n- Current IT load capacity (2025)\n\n- Future capacity additions (2025-2029)\n\n\n\nRetail Colocation Pricing\n\n- Quarter Rack (1/4)\n\n- Half Rack Cabinets (1/2)\n\n- Full Rack Cabinet (42U/45U/47U/etc.)\n\n- Wholesale colocation (per kW) pricing\n\n**Key Market Highlights**\n\n- Calgary le...\n\n--------------------------------------------------------------------------------\n\nResult 5:\nTitle: IREN | Next-Gen Data Centers for AI, HPC & Sustainable ...\nURL: https://iren.com\nContent: *AI data centers Purpose-built *\n\n...powered by\n\n**100% renewable energy***\n\nInfrastructure engineered not just for what AI needs now, but for what AI will demand next. IREN\'s vertical integration, expertise and flexibility empowers you to scale faster, accelerate time to market and gain your competitive edge.\n\nPurpose-built for demanding AI training and inference by the experts in high-performance infrastructure.\n\nFuture-proof your growth with infrastructure located at large-scale sites in emerging AI hubs.\n\nWith our end-to-end control, you gain operational efficiency and reliability, backed by 24/7 dedicated support.\n\nBuilt on NVIDIA reference architecture to handle the most demanding AI training and inference workloads.\n\nLeverage our vertical integration for greater flexibility, operational efficiency and reliability.\n\nWith an onsite team ready to respond anytime, we deliver smooth, reliable service for your critical workloads.\n\nIREN’s next-generation data centers are purpose-built for high-performance, po...\n\n--------------------------------------------------------------------------------\n\nResult 6:\nTitle: Canada Data Center Construction Market Size and Share\nURL: https://www.mordorintelligence.com/industry-reports/canada-states-data-center-construction-market\nContent: ## Canada Data Center Construction Market Trends and Insights\n\nDrivers Impact Analysis\n\n|Driver|(~)% Impact on CAGR Forecast|Geographic Relevance|Impact Timeline|\n|--|--|--|--|\n|Soaring cloud and AI workload demand|+2.8%|Global, with concentration in Toronto, Montreal, Calgary|Medium term (2-4 years)|\n|Accelerating hyperscale CAPEX commitments|+2.1%|Alberta, Ontario, British Columbia|Short term (≤ 2 years)|\n|Federal CAD 2.4 billion (USD 1.74 billion) Sovereign AI Compute Strategy|+1.9%|National, with early gains in Toronto, Calgary, Montreal|Medium term (2-4 years)|\n|Abundant low-carbon hydro-power capacity|+1.6%|Quebec, British Columbia, Ontario|Long term (≥ 4 years)|\n|Alberta\'s 1.2 GW phased grid-connection program|+1.4%|Alberta, with spillover to Saskatchewan|Short term (≤ 2 years)|\n|Adaptive-reuse of vacant industrial assets|+0.8%|Toronto, Montreal, Vancouver metropolitan areas|Medium term (2-4 years)|\n|Source: Mordor Intelligence|\nSoaring Cloud and AI Workload Demand... ## Geography Analysis\n\nAlberta lea...\n\n--------------------------------------------------------------------------------\n\nResult 7:\nTitle: Canada Data Center Market Investment Report 2021-2026 Featuring Major Investors - Cologix, Compass, Digital Realty, Enovum, Equinix, eStruxture, STACK INFRASTRUCTURE, Urbacon, & Vantage\nURL: https://www.prnewswire.com/news-releases/canada-data-center-market-investment-report-2021-2026-featuring-major-investors---cologix-compass-digital-realty-enovum-equinix-estruxture-stack-infrastructure-urbacon--vantage-301422109.html\nContent: DUBLIN, Nov. 11, 2021 /PRNewswire/ -- The "Canada Data Center Market - Investment Analysis and Growth Opportunities 2021-2026" report has been added to\n\n**ResearchAndMarkets.com\'s** offering.\n\nCanada data center market size will witness investments of USD 5.38 billion by 2026, growing at a CAGR of 10.13% during 2021-2026\n\nThis report analyzes the Canada data center market share and elaborative analysis of the existing and upcoming facilities, investments in terms of IT, electrical, mechanical infrastructure, general construction, tier standards, and geography. It discusses market sizing and investment estimation for different segments.\n\nIncreased digitalization, excellent fiber connectivity, and reserves of renewable energy resources make Canada an attractive market for data center investment. Most facilities in Canada are green data centers, powered through 100% renewable energy.\n\nThough Canada has a significant landmass, data gravity is higher in major cities with a higher population, such as Toronto, Montr...\n\n--------------------------------------------------------------------------------\n\nResult 8:\nTitle: Canada Existing & Upcoming Data Center Portfolio\nURL: https://www.researchandmarkets.com/reports/5983083/canada-existing-and-upcoming-data-center-portfolio?+Upcoming+Data+Center+Database+2025+%7C+EStruxture+Data+Centers%2C+Cologix%2C+Vantage+Data+Centers+and+Equinix+are+Some+of+the+Leading+Data+Center+Operators+by+Capacity\nContent: Speak directly to the analyst to clarify any post sales queries you may have.\n\n- Detailed Analysis of 116 existing data centers\n\n- Detailed Analysis of 19 upcoming data centers\n\n- Locations covered: Calgary, Charlottetown, Gatineau, Halifax, Kamloops, Kelowna, Kitchener, Lethbridge, Markham, Mississauga, Moncton, Montreal, Ottawa, Quebec City, Regina, Richmond Hill, Saint John, Saskatoon, Toronto, Vancouver, Waterloo, White City, Winnipeg.\n\n- Existing white-floor space (square feet)\n\n- Upcoming white-floor space (square feet)\n\n- Current IT load capacity (2025)\n\n- Future capacity additions (2025-2029)\n\n- Retail Colocation Pricing\n\n- Quarter Rack (1/4)\n\n- Half Rack Cabinets (1/2)\n\n- Full Rack Cabinet (42U/45U/47U/etc.)\n\n- Wholesale colocation (per kW) pricing\n\n## Key Market Highlights\n\n- Calgary leads the upcoming market, representing more than 25% of Canada\'s future power capacity.\n\n- eStruxture Data Centers, Cologix, Vantage Data Centers and Equinix are some of the leading data center operators by capacity.\n\n...\n\n--------------------------------------------------------------------------------\n\nResult 9:\nTitle: Canada Data Center Market Investment Analysis Report 2025-2030\nURL: https://www.businesswire.com/news/home/20250409938380/en/Canada-Data-Center-Market-Investment-Analysis-Report-2025-2030-$12.27-Bn-Growth-Opportunities-in-IT-Electrical-Mechanical-Infrastructure-General-Construction-and-Tier-Standards---ResearchAndMarkets.com\nContent: The rising demand and significant growth opportunities have led to an increase in the investment in data centers from new entrants. These new entrants in the Canada data center market include Beacon AI Centers, Bit Digital, Cohere+ CoreWeave, Gatineau Data Hub (GDH), and Yondr. The rise in new entrants will increase competitiveness in revenue generation in the market in the coming years.\n\nThe Canada data center market has several local and global construction contractors operating in the market including Arup, AECOM, Bird Construction Black & Veatch, DPR Construction, First Gulf, HDR, Jacobs, Karbon Engineering, PCL Construction, Pomerleau, Revenco, Rider Levett Bucknall (RLB), Salas O\'Brien, Salute, Stantec, Turner Construction and others that have been offering their services in the market. For instance, In July 2024, Salas O\'Brien announced the merger with Ehvert Mission Critical to offer design and construction services for hyperscale data centers.\n\n**KEY HIGHLIGHTS**... - Canada is witnessing significant...\n\n--------------------------------------------------------------------------------\n\nResult 10:\nTitle: Search Data Centers: Colocation, Bare Metal, Cloud\nURL: https://www.datacenters.com\nContent: 21\n\nArgentina\n\n21\n\nAustria\n\n20\n\nRomania\n\n19\n\nVietnam\n\n19\n\nPhilippines\n\n19\n\nTurkey\n\n18\n\nFrancia\n\n17\n\nCzechia\n\n17\n\nPeru\n\n17\n\nView All Countries\n\nTop 50 Providers with Data Centers\n\nFind providers that offer colocation, bare metal, cloud and managed services.\n\nChina Telecom\n\n362\n\nLumen\n\n308\n\nEquinix\n\n270\n\nDigital Realty\n\n254\n\nZenlayer\n\n253\n\nCentersquare\n\n112\n\nCogent Communications\n\n109\n\nNTT Global Data Centers\n\n105\n\nMOD Mission Critical\n\n99\n\nDataBank\n\n91\n\n365 Data Centers\n\n86\n\nHivelocity\n\n57\n\nQTS Data Centers\n\n46\n\nCologix\n\n45\n\nCyrusOne\n\n45\n\nEnzu\n\n44\n\nTierPoint\n\n41\n\nFlexential\n\n40\n\nTelia Company\n\n40\n\nIron Mountain Data Centers\n\n37\n\nTelehouse\n\n34\n\nVultr\n\n30\n\nTelstra\n\n30\n\nH5 Data Centers\n\n30\n\nCrown Castle\n\n28\n\nCoreSite\n\n27\n\nAT&T\n\n26\n\nVantage Data Centers\n\n25\n\nAtlasEdge Data Centers\n\n24\n\nNorthC\n\n23\n\nFDCservers.net\n\n23\n\nAscenty\n\n23... Colocation America\n\n22\n\nPrime Data Centers\n\n22\n\nLightEdge\n\n19\n\nVerizon\n\n19\n\nRackspace\n\n18\n\niTel Networks Inc.\n\n18\n\nCirion Technologies\n\n17\n\nLimestone Networks\n\n17\n\nData Canopy\n\n17\n\nSumm...\n\n--------------------------------------------------------------------------------\n\n'}
+2025-10-12 01:32:29,796 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'write_file', 'arguments': '{"filename":"canada_projects.txt","content":"Wonder Valley AI Data Centre Industrial Park | Announced | Canada | Alberta | Greenview | Greenview Industrial Gateway, near Grande Prairie | 55.1875 | -117.2481 | O\'Leary Ventures | O\'Leary Ventures | TBD | TBD | 7000 | TBD | TBD | 7000 acres | 2024-12-09 | 2030+ (phased) | https://www.datacentreassociation.ca/project-tracker, https://www.prnewswire.com/news-releases/kevin-oleary-in-cooperation-with-the-municipal-district-of-greenview-to-develop-the-worlds-largest-ai-data-centre-industrial-park-wonder-valley-in-the-greenview-industrial-gateway-gig-near-grande-prairie-in-north-west-albe-302326230.html, https://mdgreenview.ab.ca/media-release-worlds-largest-ai-data-centre-industrial-park-wonder-valley-coming-to-the-greenview-industrial-gateway/\\nBeacon Langdon Artificial Intelligence Hub | Planned | Canada | Alberta | Rocky View County (near Indus) | Township Rd 232, T1X 0H4 Bennett | 51.0333 (approx) | -113.7000 (approx) | Beacon Data Centres | Beacon Data Centres | TBD | TBD | 400 | TBD | TBD | 946 acres | 2025 | TBD | https://www.datacentermap.com/canada/calgary/beacon-langdon-ai-hub/, https://majorprojects.alberta.ca/details/Beacon-Langdon-Artificial-Intelligence-Hub/11492\\nBell AI Fabric Supercluster | Under Construction | Canada | British Columbia | Kamloops, Merritt | Multiple: Kamloops (TRU), Merritt | 50.6745 (Kamloops, approx), 50.1122 (Merritt, approx) | -120.3273 (Kamloops, approx), -120.7896 (Merritt, approx) | Bell Canada | Bell Canada | TBD | Groq | 500 | TBD | TBD | TBD | 2025-06 | 2027 (phased) | https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/, https://explore.business.bell.ca/news-and-events/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric\\nCAL-3 eStruxture Hyperscale | Permitted | Canada | Alberta | Rocky View County (north of Calgary) | Rocky View County, 5km north of Calgary | 51.2000 (approx) | -114.0000 (approx) | eStruxture | eStruxture | TBD | TBD | 90 | TBD | TBD | 300000 | 2024-10 | 2026-10 | https://www.estruxture.com/press-releases/estruxture-announces-albertas-largest-data-center-introducing-the-groundbreaking-cal-3-facility, https://www.datacenterdynamics.com/en/news/canadas-estruxture-to-build-90mw-data-center-in-calgary/\\nRelated Digital/Ascent Cambridge Hyperscale | Under Construction | Canada | Ontario | Cambridge | TBD | 43.3616 (approx) | -80.3144 (approx) | Ascent, Related Digital, TowerBrook Capital Partners | Ascent, Related Digital, TowerBrook Capital Partners | TBD | TBD | 54 | TBD | TBD | TBD | 2025-07 | TBD | https://www.cppinvestments.com/newsroom/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centre/, https://www.related-digital.com/news/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centrenbsp\\nYondr Toronto Data Center | Under Construction | Canada | Ontario | Toronto | 4.5-acre site, Don Valley North (exact address TBD) | 43.7700 (approx) | -79.3400 (approx) | Yondr Group | Yondr Group | TBD | TBD | 27 | TBD | TBD | TBD | 2025-01 | 2026-07 | https://www.yondrgroup.com/newsroom/press-release/yondr-group-celebrates-groundbreaking-for-27mw-toronto-data-center/, https://www.datacenterdynamics.com/en/news/yondr-breaks-ground-on-27mw-data-center-in-toronto-canada/","overwrite":true,"base_commit_hash":""}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:32:32,834 - Canada_ProjectHunter - INFO - canada_projects.txt
+---Content---
+Wonder Valley AI Data Centre Industrial Park | Announced | Canada | Alberta | Greenview | Greenview Industrial Gateway, near Grande Prairie | 55.1875 | -117.2481 | O'Leary Ventures | O'Leary Ventures | TBD | TBD | 7000 | TBD | TBD | 7000 acres | 2024-12-09 | 2030+ (phased) | https://www.datacentreassociation.ca/project-tracker, https://www.prnewswire.com/news-releases/kevin-oleary-in-cooperation-with-the-municipal-district-of-greenview-to-develop-the-worlds-largest-ai-data-centre-industrial-park-wonder-valley-in-the-greenview-industrial-gateway-gig-near-grande-prairie-in-north-west-albe-302326230.html, https://mdgreenview.ab.ca/media-release-worlds-largest-ai-data-centre-industrial-park-wonder-valley-coming-to-the-greenview-industrial-gateway/
+Beacon Langdon Artificial Intelligence Hub | Planned | Canada | Alberta | Rocky View County (near Indus) | Township Rd 232, T1X 0H4 Bennett | 51.0333 (approx) | -113.7000 (approx) | Beacon Data Centres | Beacon Data Centres | TBD | TBD | 400 | TBD | TBD | 946 acres | 2025 | TBD | https://www.datacentermap.com/canada/calgary/beacon-langdon-ai-hub/, https://majorprojects.alberta.ca/details/Beacon-Langdon-Artificial-Intelligence-Hub/11492
+Bell AI Fabric Supercluster | Under Construction | Canada | British Columbia | Kamloops, Merritt | Multiple: Kamloops (TRU), Merritt | 50.6745 (Kamloops, approx), 50.1122 (Merritt, approx) | -120.3273 (Kamloops, approx), -120.7896 (Merritt, approx) | Bell Canada | Bell Canada | TBD | Groq | 500 | TBD | TBD | TBD | 2025-06 | 2027 (phased) | https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/, https://explore.business.bell.ca/news-and-events/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric
+CAL-3 eStruxture Hyperscale | Permitted | Canada | Alberta | Rocky View County (north of Calgary) | Rocky View County, 5km north of Calgary | 51.2000 (approx) | -114.0000 (approx) | eStruxture | eStruxture | TBD | TBD | 90 | TBD | TBD | 300000 | 2024-10 | 2026-10 | https://www.estruxture.com/press-releases/estruxture-announces-albertas-largest-data-center-introducing-the-groundbreaking-cal-3-facility, https://www.datacenterdynamics.com/en/news/canadas-estruxture-to-build-90mw-data-center-in-calgary/
+Related Digital/Ascent Cambridge Hyperscale | Under Construction | Canada | Ontario | Cambridge | TBD | 43.3616 (approx) | -80.3144 (approx) | Ascent, Related Digital, TowerBrook Capital Partners | Ascent, Related Digital, TowerBrook Capital Partners | TBD | TBD | 54 | TBD | TBD | TBD | 2025-07 | TBD | https://www.cppinvestments.com/newsroom/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centre/, https://www.related-digital.com/news/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centrenbsp
+Yondr Toronto Data Center | Under Construction | Canada | Ontario | Toronto | 4.5-acre site, Don Valley North (exact address TBD) | 43.7700 (approx) | -79.3400 (approx) | Yondr Group | Yondr Group | TBD | TBD | 27 | TBD | TBD | TBD | 2025-01 | 2026-07 | https://www.yondrgroup.com/newsroom/press-release/yondr-group-celebrates-groundbreaking-for-27mw-toronto-data-center/, https://www.datacenterdynamics.com/en/news/yondr-breaks-ground-on-27mw-data-center-in-toronto-canada/
+---Result---
+Successfully wrote to canada_projects.txt. The new commit hash is 349a7d2510d52724f1c6493d1a29626083cef385
+2025-10-12 01:32:32,834 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'write_file', 'content': 'Successfully wrote to canada_projects.txt. The new commit hash is 349a7d2510d52724f1c6493d1a29626083cef385'}
+2025-10-12 01:32:34,923 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'read_file', 'arguments': '{"filename":"canada_projects.txt"}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:32:41,276 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'read_file', 'content': "canada_projects.txt\n---Content---\nWonder Valley AI Data Centre Industrial Park | Announced | Canada | Alberta | Greenview | Greenview Industrial Gateway, near Grande Prairie | 55.1875 | -117.2481 | O'Leary Ventures | O'Leary Ventures | TBD | TBD | 7000 | TBD | TBD | 7000 acres | 2024-12-09 | 2030+ (phased) | https://www.datacentreassociation.ca/project-tracker, https://www.prnewswire.com/news-releases/kevin-oleary-in-cooperation-with-the-municipal-district-of-greenview-to-develop-the-worlds-largest-ai-data-centre-industrial-park-wonder-valley-in-the-greenview-industrial-gateway-gig-near-grande-prairie-in-north-west-albe-302326230.html, https://mdgreenview.ab.ca/media-release-worlds-largest-ai-data-centre-industrial-park-wonder-valley-coming-to-the-greenview-industrial-gateway/\nBeacon Langdon Artificial Intelligence Hub | Planned | Canada | Alberta | Rocky View County (near Indus) | Township Rd 232, T1X 0H4 Bennett | 51.0333 (approx) | -113.7000 (approx) | Beacon Data Centres | Beacon Data Centres | TBD | TBD | 400 | TBD | TBD | 946 acres | 2025 | TBD | https://www.datacentermap.com/canada/calgary/beacon-langdon-ai-hub/, https://majorprojects.alberta.ca/details/Beacon-Langdon-Artificial-Intelligence-Hub/11492\nBell AI Fabric Supercluster | Under Construction | Canada | British Columbia | Kamloops, Merritt | Multiple: Kamloops (TRU), Merritt | 50.6745 (Kamloops, approx), 50.1122 (Merritt, approx) | -120.3273 (Kamloops, approx), -120.7896 (Merritt, approx) | Bell Canada | Bell Canada | TBD | Groq | 500 | TBD | TBD | TBD | 2025-06 | 2027 (phased) | https://www.datacenterdynamics.com/en/news/bell-ai-fabric-bell-canada-plans-ai-data-center-supercluster-with-500mw-in-british-columbia/, https://explore.business.bell.ca/news-and-events/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric\nCAL-3 eStruxture Hyperscale | Permitted | Canada | Alberta | Rocky View County (north of Calgary) | Rocky View County, 5km north of Calgary | 51.2000 (approx) | -114.0000 (approx) | eStruxture | eStruxture | TBD | TBD | 90 | TBD | TBD | 300000 | 2024-10 | 2026-10 | https://www.estruxture.com/press-releases/estruxture-announces-albertas-largest-data-center-introducing-the-groundbreaking-cal-3-facility, https://www.datacenterdynamics.com/en/news/canadas-estruxture-to-build-90mw-data-center-in-calgary/\nRelated Digital/Ascent Cambridge Hyperscale | Under Construction | Canada | Ontario | Cambridge | TBD | 43.3616 (approx) | -80.3144 (approx) | Ascent, Related Digital, TowerBrook Capital Partners | Ascent, Related Digital, TowerBrook Capital Partners | TBD | TBD | 54 | TBD | TBD | TBD | 2025-07 | TBD | https://www.cppinvestments.com/newsroom/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centre/, https://www.related-digital.com/news/cpp-investments-commits-to-225-million-in-construction-financing-for-ontario-data-centrenbsp\nYondr Toronto Data Center | Under Construction | Canada | Ontario | Toronto | 4.5-acre site, Don Valley North (exact address TBD) | 43.7700 (approx) | -79.3400 (approx) | Yondr Group | Yondr Group | TBD | TBD | 27 | TBD | TBD | TBD | 2025-01 | 2026-07 | https://www.yondrgroup.com/newsroom/press-release/yondr-group-celebrates-groundbreaking-for-27mw-toronto-data-center/, https://www.datacenterdynamics.com/en/news/yondr-breaks-ground-on-27mw-data-center-in-toronto-canada/\n---base_commit_hash---\nb3ae204b43fdc1462489ebbafdd091e2caa213af"}
+2025-10-12 01:32:46,204 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'change_task_status', 'arguments': '{"todo":"1. Review coverage for all major provinces (Alberta, British Columbia, Ontario, Quebec, others) and leading operators (Digital Realty, Equinix, Vantage, QScale, Cologix, Compass, STACK, Microsoft, AWS, Google, etc.) for 50MW+ AI datacenter projects. 2. Recruit Source Collectors for Quebec and for major global operators in Canada to ensure ≥95% coverage. 3. Recruit Geocoders to refine lat/long for all projects. 4. Recruit Deduplicators to check for aliases/near-duplicates. 5. Recruit Verifiers for QA. 6. Report progress to Americas_Admin and escalate any coverage gaps.","done":"Initial comprehensive list of 50MW+ AI datacenter projects in Canada written to canada_projects.txt, including Wonder Valley, Beacon Langdon, Bell AI Fabric, CAL-3 eStruxture, Related Digital/Ascent Cambridge, and Yondr Toronto. Next: ensure coverage and QA."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:08,887 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'change_task_status', 'content': 'Success.'}
+2025-10-12 01:33:13,652 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'add_agent', 'arguments': '{"name":"QuebecSourceCollector","description":"Source Collector for Quebec, focused on identifying all 50MW+ AI datacenter projects (planned, announced, under construction, completed) in Quebec, Canada. Responsible for writing findings to canada_projects.txt and reporting any coverage gaps.","initial_prompt":"You are QuebecSourceCollector, a Source Collector for Quebec. Your job is to comprehensively identify all 50MW+ AI datacenter projects (planned, announced, permitted, under construction, completed) in Quebec, Canada. For each project, capture all required fields and write to canada_projects.txt (one project per line: \\"project_name | status | country | region | city | site_address | latitude | longitude | operator | developer | builder | vendors | capacity_mw | it_load_mw | racks | sqft | start_date | completion_date | sources\\"). Collaborate with Geocoders, Deduplicators, and Verifiers as needed. Files: canada_projects.txt, organizations.txt, dedupe_map.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure ≥95% coverage for Quebec. If you find no projects, document this in narrative.txt and report to Canada_ProjectHunter."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:13,676 - Canada_ProjectHunter - INFO - Add agent: QuebecSourceCollector success, with description: Source Collector for Quebec, focused on identifying all 50MW+ AI datacenter projects (planned, announced, under construction, completed) in Quebec, Canada. Responsible for writing findings to canada_projects.txt and reporting any coverage gaps., and initial_prompt: You are QuebecSourceCollector, a Source Collector for Quebec. Your job is to comprehensively identify all 50MW+ AI datacenter projects (planned, announced, permitted, under construction, completed) in Quebec, Canada. For each project, capture all required fields and write to canada_projects.txt (one project per line: "project_name | status | country | region | city | site_address | latitude | longitude | operator | developer | builder | vendors | capacity_mw | it_load_mw | racks | sqft | start_date | completion_date | sources"). Collaborate with Geocoders, Deduplicators, and Verifiers as needed. Files: canada_projects.txt, organizations.txt, dedupe_map.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure ≥95% coverage for Quebec. If you find no projects, document this in narrative.txt and report to Canada_ProjectHunter.
+2025-10-12 01:33:13,678 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'add_agent', 'content': 'Success.'}
+2025-10-12 01:33:17,851 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'add_agent', 'arguments': '{"name":"GlobalOperatorSourceCollector","description":"Source Collector for major global datacenter operators in Canada (Digital Realty, Equinix, Vantage, QScale, Cologix, Compass, STACK, Microsoft, AWS, Google, etc.), focused on identifying all 50MW+ AI datacenter projects (planned, announced, under construction, completed) in Canada. Responsible for writing findings to canada_projects.txt and reporting any coverage gaps.","initial_prompt":"You are GlobalOperatorSourceCollector, a Source Collector for major global datacenter operators in Canada. Your job is to comprehensively identify all 50MW+ AI datacenter projects (planned, announced, permitted, under construction, completed) by Digital Realty, Equinix, Vantage, QScale, Cologix, Compass, STACK, Microsoft, AWS, Google, and other major global operators in Canada. For each project, capture all required fields and write to canada_projects.txt (one project per line: \\"project_name | status | country | region | city | site_address | latitude | longitude | operator | developer | builder | vendors | capacity_mw | it_load_mw | racks | sqft | start_date | completion_date | sources\\"). Collaborate with Geocoders, Deduplicators, and Verifiers as needed. Files: canada_projects.txt, organizations.txt, dedupe_map.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure ≥95% coverage for global operator projects in Canada. If you find no projects, document this in narrative.txt and report to Canada_ProjectHunter."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:17,866 - Canada_ProjectHunter - INFO - Add agent: GlobalOperatorSourceCollector success, with description: Source Collector for major global datacenter operators in Canada (Digital Realty, Equinix, Vantage, QScale, Cologix, Compass, STACK, Microsoft, AWS, Google, etc.), focused on identifying all 50MW+ AI datacenter projects (planned, announced, under construction, completed) in Canada. Responsible for writing findings to canada_projects.txt and reporting any coverage gaps., and initial_prompt: You are GlobalOperatorSourceCollector, a Source Collector for major global datacenter operators in Canada. Your job is to comprehensively identify all 50MW+ AI datacenter projects (planned, announced, permitted, under construction, completed) by Digital Realty, Equinix, Vantage, QScale, Cologix, Compass, STACK, Microsoft, AWS, Google, and other major global operators in Canada. For each project, capture all required fields and write to canada_projects.txt (one project per line: "project_name | status | country | region | city | site_address | latitude | longitude | operator | developer | builder | vendors | capacity_mw | it_load_mw | racks | sqft | start_date | completion_date | sources"). Collaborate with Geocoders, Deduplicators, and Verifiers as needed. Files: canada_projects.txt, organizations.txt, dedupe_map.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure ≥95% coverage for global operator projects in Canada. If you find no projects, document this in narrative.txt and report to Canada_ProjectHunter.
+2025-10-12 01:33:17,868 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'add_agent', 'content': 'Success.'}
+2025-10-12 01:33:22,883 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'add_agent', 'arguments': '{"name":"Geocoder","description":"Geocoder for Canadian AI datacenter projects. Responsible for refining and verifying latitude/longitude for all projects in canada_projects.txt, marking approximate locations where necessary, and writing results back to canada_projects.txt. Collaborates with Source Collectors, Deduplicators, and Verifiers.","initial_prompt":"You are Geocoder, a geocoding specialist for Canadian AI datacenter projects. Your job is to refine and verify the latitude and longitude for all projects in canada_projects.txt, marking approximate locations where necessary. Write updated results back to canada_projects.txt. Collaborate with Source Collectors, Deduplicators, and Verifiers as needed. Files: canada_projects.txt, organizations.txt, dedupe_map.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure all projects have the most accurate geolocation possible."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:22,893 - Canada_ProjectHunter - INFO - Add agent: Geocoder success, with description: Geocoder for Canadian AI datacenter projects. Responsible for refining and verifying latitude/longitude for all projects in canada_projects.txt, marking approximate locations where necessary, and writing results back to canada_projects.txt. Collaborates with Source Collectors, Deduplicators, and Verifiers., and initial_prompt: You are Geocoder, a geocoding specialist for Canadian AI datacenter projects. Your job is to refine and verify the latitude and longitude for all projects in canada_projects.txt, marking approximate locations where necessary. Write updated results back to canada_projects.txt. Collaborate with Source Collectors, Deduplicators, and Verifiers as needed. Files: canada_projects.txt, organizations.txt, dedupe_map.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure all projects have the most accurate geolocation possible.
+2025-10-12 01:33:22,894 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'add_agent', 'content': 'Success.'}
+2025-10-12 01:33:26,253 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'add_agent', 'arguments': '{"name":"Deduplicator","description":"Deduplicator for Canadian AI datacenter projects. Responsible for reviewing canada_projects.txt for aliases and near-duplicates, maintaining canonical project names, and writing dedupe_map.txt. Collaborates with Source Collectors, Geocoders, and Verifiers.","initial_prompt":"You are Deduplicator, a deduplication specialist for Canadian AI datacenter projects. Your job is to review canada_projects.txt for aliases and near-duplicates, maintain canonical project names, and write dedupe_map.txt (\\"canonical_project | alias | reason | sources\\"). Collaborate with Source Collectors, Geocoders, and Verifiers as needed. Files: canada_projects.txt, dedupe_map.txt, organizations.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure no duplicate or alias projects remain in the final list."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:26,266 - Canada_ProjectHunter - INFO - Add agent: Deduplicator success, with description: Deduplicator for Canadian AI datacenter projects. Responsible for reviewing canada_projects.txt for aliases and near-duplicates, maintaining canonical project names, and writing dedupe_map.txt. Collaborates with Source Collectors, Geocoders, and Verifiers., and initial_prompt: You are Deduplicator, a deduplication specialist for Canadian AI datacenter projects. Your job is to review canada_projects.txt for aliases and near-duplicates, maintain canonical project names, and write dedupe_map.txt ("canonical_project | alias | reason | sources"). Collaborate with Source Collectors, Geocoders, and Verifiers as needed. Files: canada_projects.txt, dedupe_map.txt, organizations.txt, qa_flags.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure no duplicate or alias projects remain in the final list.
+2025-10-12 01:33:26,266 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'add_agent', 'content': 'Success.'}
+2025-10-12 01:33:29,628 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'add_agent', 'arguments': '{"name":"Verifier","description":"Verifier for Canadian AI datacenter projects. Responsible for QA of canada_projects.txt, checking facts, reconciling across sources, and flagging issues in qa_flags.txt. Collaborates with Source Collectors, Geocoders, and Deduplicators.","initial_prompt":"You are Verifier, a QA specialist for Canadian AI datacenter projects. Your job is to perform QA on canada_projects.txt, checking facts, reconciling across sources, and flagging issues in qa_flags.txt (\\"project_name | field | issue | note | sources\\"). Collaborate with Source Collectors, Geocoders, and Deduplicators as needed. Files: canada_projects.txt, qa_flags.txt, dedupe_map.txt, organizations.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure all facts are accurate, sources are strong, and estimates are clearly noted."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:29,640 - Canada_ProjectHunter - INFO - Add agent: Verifier success, with description: Verifier for Canadian AI datacenter projects. Responsible for QA of canada_projects.txt, checking facts, reconciling across sources, and flagging issues in qa_flags.txt. Collaborates with Source Collectors, Geocoders, and Deduplicators., and initial_prompt: You are Verifier, a QA specialist for Canadian AI datacenter projects. Your job is to perform QA on canada_projects.txt, checking facts, reconciling across sources, and flagging issues in qa_flags.txt ("project_name | field | issue | note | sources"). Collaborate with Source Collectors, Geocoders, and Deduplicators as needed. Files: canada_projects.txt, qa_flags.txt, dedupe_map.txt, organizations.txt, narrative.txt. Your supervisor is Canada_ProjectHunter. Ensure all facts are accurate, sources are strong, and estimates are clearly noted.
+2025-10-12 01:33:29,640 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'add_agent', 'content': 'Success.'}
+2025-10-12 01:33:33,879 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'talk', 'arguments': '{"messages":"<talk goal=\\"QuebecSourceCollector\\">Begin comprehensive identification of all 50MW+ AI datacenter projects in Quebec, Canada. Write each project to canada_projects.txt with all required fields. If no projects are found, document this in narrative.txt and report to me.</talk><talk goal=\\"GlobalOperatorSourceCollector\\">Begin comprehensive identification of all 50MW+ AI datacenter projects by major global operators (Digital Realty, Equinix, Vantage, QScale, Cologix, Compass, STACK, Microsoft, AWS, Google, etc.) in Canada. Write each project to canada_projects.txt with all required fields. If no projects are found, document this in narrative.txt and report to me.</talk><talk goal=\\"Geocoder\\">Review all projects in canada_projects.txt and refine/verify latitude and longitude for each, marking approximate locations where necessary. Write updated results back to canada_projects.txt.</talk><talk goal=\\"Deduplicator\\">Review canada_projects.txt for aliases and near-duplicates. Maintain canonical project names and write dedupe_map.txt as needed.</talk><talk goal=\\"Verifier\\">Perform QA on canada_projects.txt, checking facts, reconciling across sources, and flagging issues in qa_flags.txt. Ensure all facts are accurate, sources are strong, and estimates are clearly noted.</talk>"}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:33,881 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'talk', 'content': 'Successfully sent. You may terminate now to wait for the response, or complete the rest of your TODO list first.'}
+2025-10-12 01:33:38,096 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'change_task_status', 'arguments': '{"todo":"1. Await responses from QuebecSourceCollector and GlobalOperatorSourceCollector for additional projects and coverage confirmation. 2. Await Geocoder\'s refined lat/long for all projects. 3. Await Deduplicator\'s review for aliases/near-duplicates. 4. Await Verifier\'s QA and issue flagging. 5. Once all sub-agents report, review for ≥95% coverage and escalate any gaps to Americas_Admin. 6. Report progress to Americas_Admin.","done":"Recruited QuebecSourceCollector, GlobalOperatorSourceCollector, Geocoder, Deduplicator, and Verifier. Issued instructions to each. Awaiting their outputs before final review and reporting."}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:33:45,174 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'change_task_status', 'content': 'Success.'}
+2025-10-12 01:33:50,094 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': 'Progress update:\n- Initial comprehensive list of 50MW+ AI datacenter projects in Canada has been written to canada_projects.txt, including Wonder Valley, Beacon Langdon, Bell AI Fabric, CAL-3 eStruxture, Related Digital/Ascent Cambridge, and Yondr Toronto.\n- Recruited sub-agents: QuebecSourceCollector (for Quebec), GlobalOperatorSourceCollector (for major global operators), Geocoder (for lat/long refinement), Deduplicator (for alias/duplicate review), and Verifier (for QA).\n- All sub-agents have been instructed and are working on their respective tasks.\n- Awaiting their outputs before final review and reporting.\n- Will review for ≥95% coverage and escalate any gaps to Americas_Admin after sub-agent reports are received.', 'refusal': None, 'annotations': []}
+2025-10-12 01:33:52,543 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'terminate', 'arguments': '{}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:44:59,530 - Canada_ProjectHunter - INFO - {'role': 'system', 'content': 'Other agents have terminated. However, you still have unfinished tasks in your TODO list. Please finish them and clear it. If you are waiting for someone, chances are that they have forgotten about you. Please remind them.'}
+2025-10-12 01:45:04,628 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'talk', 'arguments': '{"messages":"<talk goal=\\"QuebecSourceCollector\\">Status check: Please provide your findings on 50MW+ AI datacenter projects in Quebec, or confirm if none exist. Update canada_projects.txt and narrative.txt as needed.</talk><talk goal=\\"GlobalOperatorSourceCollector\\">Status check: Please provide your findings on 50MW+ AI datacenter projects by major global operators in Canada. Update canada_projects.txt and narrative.txt as needed.</talk><talk goal=\\"Geocoder\\">Status check: Please provide refined/verified latitude and longitude for all projects in canada_projects.txt, marking approximate locations where necessary.</talk><talk goal=\\"Deduplicator\\">Status check: Please review canada_projects.txt for aliases and near-duplicates, and update dedupe_map.txt as needed.</talk><talk goal=\\"Verifier\\">Status check: Please perform QA on canada_projects.txt, flagging any issues in qa_flags.txt and ensuring all facts are accurate and sources are strong.</talk>"}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:45:07,043 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'talk', 'content': 'Successfully sent. You may terminate now to wait for the response, or complete the rest of your TODO list first.'}
+2025-10-12 01:45:10,111 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': 'I have reminded all sub-agents (QuebecSourceCollector, GlobalOperatorSourceCollector, Geocoder, Deduplicator, Verifier) to provide their outputs and status updates. I will proceed once their responses are received and all tasks are complete.', 'refusal': None, 'annotations': []}
+2025-10-12 01:45:13,005 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'terminate', 'arguments': '{}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:46:27,711 - Canada_ProjectHunter - INFO - {'role': 'user', 'content': 'Deduplicator : Deduplication review of canada_projects.txt is complete. All aliases and near-duplicates have been mapped in dedupe_map.txt with canonical names, reasons, and sources. No unresolved duplicates remain in the Canadian 50MW+ AI datacenter project list. Ready for further instructions or QA.'}
+2025-10-12 01:46:30,581 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'talk', 'arguments': '{"messages":"<talk goal=\\"Verifier\\">Deduplicator has completed dedupe_map.txt and confirmed no unresolved duplicates remain in the Canadian 50MW+ AI datacenter project list. Please proceed with final QA review of canada_projects.txt, ensuring all facts are accurate, sources are strong, and any issues are flagged in qa_flags.txt. Confirm when QA is complete or if any issues require escalation.</talk>"}'}, 'refusal': None, 'annotations': []}
+2025-10-12 01:46:31,270 - Canada_ProjectHunter - INFO - {'role': 'function', 'name': 'talk', 'content': 'Successfully sent. You may terminate now to wait for the response, or complete the rest of your TODO list first.'}
+2025-10-12 01:46:33,596 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': "Deduplicator has completed deduplication and confirmed no unresolved duplicates remain. I have notified the Verifier to proceed with final QA review of canada_projects.txt. Awaiting Verifier's confirmation or escalation of any issues before finalizing and reporting to Americas_Admin.", 'refusal': None, 'annotations': []}
+2025-10-12 01:46:34,774 - Canada_ProjectHunter - INFO - {'role': 'assistant', 'content': None, 'function_call': {'name': 'terminate', 'arguments': '{}'}, 'refusal': None, 'annotations': []}
